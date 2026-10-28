@@ -2,10 +2,10 @@
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "CaplinkTrades — Copy Trading Platform",
-    short_name: "CaplinkTrades",
+    name: "CaplinkMarkets — Copy Trading Platform",
+    short_name: "CaplinkMarkets",
     description:
-      "Copy top traders automatically with CaplinkTrades. Real-time trade copying and smart portfolio management.",
+      "Copy top traders automatically with CaplinkMarkets. Real-time trade copying and smart portfolio management.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",

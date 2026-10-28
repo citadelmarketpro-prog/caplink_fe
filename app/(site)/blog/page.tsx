@@ -3,26 +3,26 @@
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Trading tips, platform updates, market insights, and community stories from the CaplinkTrades team. Stay informed and invest smarter.",
+    "Trading tips, platform updates, market insights, and community stories from the CaplinkMarkets team. Stay informed and invest smarter.",
   openGraph: {
-    title: "Blog | CaplinkTrades",
+    title: "Blog | CaplinkMarkets",
     description:
-      "Trading tips, platform updates, market insights, and community stories from the CaplinkTrades team.",
+      "Trading tips, platform updates, market insights, and community stories from the CaplinkMarkets team.",
     url: "https://caplinkmarkets.com/blog",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "CaplinkTrades — Copy Trading Platform",
+        alt: "CaplinkMarkets — Copy Trading Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blog | CaplinkTrades",
+    title: "Blog | CaplinkMarkets",
     description:
-      "Trading tips, platform updates, market insights, and community stories from the CaplinkTrades team.",
+      "Trading tips, platform updates, market insights, and community stories from the CaplinkMarkets team.",
     images: ["/opengraph-image.png"],
   },
 };

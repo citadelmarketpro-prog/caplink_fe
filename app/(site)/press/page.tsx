@@ -3,26 +3,26 @@
 export const metadata: Metadata = {
   title: "Press",
   description:
-    "CaplinkTrades in the news. Read the latest press coverage, media mentions, and official press releases about our copy trading platform.",
+    "CaplinkMarkets in the news. Read the latest press coverage, media mentions, and official press releases about our copy trading platform.",
   openGraph: {
-    title: "Press | CaplinkTrades",
+    title: "Press | CaplinkMarkets",
     description:
-      "CaplinkTrades in the news. Latest press coverage, media mentions, and official press releases.",
+      "CaplinkMarkets in the news. Latest press coverage, media mentions, and official press releases.",
     url: "https://caplinkmarkets.com/press",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "CaplinkTrades — Copy Trading Platform",
+        alt: "CaplinkMarkets — Copy Trading Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Press | CaplinkTrades",
+    title: "Press | CaplinkMarkets",
     description:
-      "CaplinkTrades in the news. Latest press coverage, media mentions, and official press releases.",
+      "CaplinkMarkets in the news. Latest press coverage, media mentions, and official press releases.",
     images: ["/opengraph-image.png"],
   },
 };
@@ -66,7 +66,7 @@ export default async function PressPage() {
             <div className="relative rounded-3xl overflow-hidden aspect-4/3">
               <Image
                 src="/images/connection.jpg"
-                alt="CaplinkTrades in the media"
+                alt="CaplinkMarkets in the media"
                 fill
                 className="object-cover"
                 priority
@@ -83,7 +83,7 @@ export default async function PressPage() {
         <div className="max-w-[1440px] mx-auto px-6 lg:px-[72px] py-10">
           <div className="rounded-2xl border border-[#e5e5e5] bg-white overflow-hidden flex flex-col sm:flex-row sm:items-center gap-0">
             <div className="relative w-full sm:w-[180px] h-[140px] sm:h-[110px] shrink-0">
-              <Image src="/images/business-2.jpg" alt="CaplinkTrades press kit" fill className="object-cover" />
+              <Image src="/images/business-2.jpg" alt="CaplinkMarkets press kit" fill className="object-cover" />
             </div>
             <div className="px-8 py-7 flex flex-col sm:flex-row sm:items-center justify-between gap-5 flex-1">
             <div>

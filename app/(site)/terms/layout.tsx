@@ -3,24 +3,24 @@
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "Read the CaplinkTrades Terms of Service. Understand your rights, responsibilities, and the conditions governing use of our copy trading platform.",
+    "Read the CaplinkMarkets Terms of Service. Understand your rights, responsibilities, and the conditions governing use of our copy trading platform.",
   openGraph: {
-    title: "Terms of Service | CaplinkTrades",
-    description: "Read the CaplinkTrades Terms of Service governing use of our copy trading platform.",
+    title: "Terms of Service | CaplinkMarkets",
+    description: "Read the CaplinkMarkets Terms of Service governing use of our copy trading platform.",
     url: "https://caplinkmarkets.com/terms",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "CaplinkTrades — Copy Trading Platform",
+        alt: "CaplinkMarkets — Copy Trading Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Terms of Service | CaplinkTrades",
-    description: "Read the CaplinkTrades Terms of Service governing use of our copy trading platform.",
+    title: "Terms of Service | CaplinkMarkets",
+    description: "Read the CaplinkMarkets Terms of Service governing use of our copy trading platform.",
     images: ["/opengraph-image.png"],
   },
 };

@@ -3,9 +3,9 @@
 export const metadata: Metadata = {
   title: "Smart Portfolio",
   description:
-    "Build a diversified investment portfolio automatically with CaplinkTrades Smart Portfolio. Intelligent allocation across top-performing traders and asset classes.",
+    "Build a diversified investment portfolio automatically with CaplinkMarkets Smart Portfolio. Intelligent allocation across top-performing traders and asset classes.",
   openGraph: {
-    title: "Smart Portfolio | CaplinkTrades",
+    title: "Smart Portfolio | CaplinkMarkets",
     description:
       "Build a diversified investment portfolio automatically. Intelligent allocation across top-performing traders and asset classes.",
     url: "https://caplinkmarkets.com/smart-portfolio",
@@ -14,13 +14,13 @@ export const metadata: Metadata = {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "CaplinkTrades — Copy Trading Platform",
+        alt: "CaplinkMarkets — Copy Trading Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Smart Portfolio | CaplinkTrades",
+    title: "Smart Portfolio | CaplinkMarkets",
     description:
       "Build a diversified investment portfolio automatically. Intelligent allocation across top-performing traders and asset classes.",
     images: ["/opengraph-image.png"],

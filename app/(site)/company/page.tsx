@@ -3,26 +3,26 @@
 export const metadata: Metadata = {
   title: "Company",
   description:
-    "Learn about CaplinkTrades — our mission to make expert-level investing accessible to everyone, our story, values, and the team behind the platform.",
+    "Learn about CaplinkMarkets — our mission to make expert-level investing accessible to everyone, our story, values, and the team behind the platform.",
   openGraph: {
-    title: "Company | CaplinkTrades",
+    title: "Company | CaplinkMarkets",
     description:
-      "Learn about CaplinkTrades — our mission to make expert-level investing accessible to everyone, our story, values, and the team behind the platform.",
+      "Learn about CaplinkMarkets — our mission to make expert-level investing accessible to everyone, our story, values, and the team behind the platform.",
     url: "https://caplinkmarkets.com/company",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "CaplinkTrades — Copy Trading Platform",
+        alt: "CaplinkMarkets — Copy Trading Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Company | CaplinkTrades",
+    title: "Company | CaplinkMarkets",
     description:
-      "Learn about CaplinkTrades — our mission to make expert-level investing accessible to everyone.",
+      "Learn about CaplinkMarkets — our mission to make expert-level investing accessible to everyone.",
     images: ["/opengraph-image.png"],
   },
 };
@@ -120,23 +120,23 @@ export default async function CompanyPage() {
             <div className="relative rounded-3xl overflow-hidden aspect-4/3 lg:aspect-auto">
               <Image
                 src="/images/business-hero.jpg"
-                alt="The CaplinkTrades team collaborating"
+                alt="The CaplinkMarkets team collaborating"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="grid grid-cols-2 gap-6">
               <div className="relative rounded-3xl overflow-hidden aspect-square">
-                <Image src="/images/team/team_3.jpg" alt="CaplinkTrades team member" fill className="object-cover" />
+                <Image src="/images/team/team_3.jpg" alt="CaplinkMarkets team member" fill className="object-cover" />
               </div>
               <div className="relative rounded-3xl overflow-hidden aspect-square translate-y-8">
-                <Image src="/images/team/team_4.jpg" alt="CaplinkTrades team member" fill className="object-cover" />
+                <Image src="/images/team/team_4.jpg" alt="CaplinkMarkets team member" fill className="object-cover" />
               </div>
               <div className="relative rounded-3xl overflow-hidden aspect-square -translate-y-8">
-                <Image src="/images/business-1.jpg" alt="CaplinkTrades office" fill className="object-cover" />
+                <Image src="/images/business-1.jpg" alt="CaplinkMarkets office" fill className="object-cover" />
               </div>
               <div className="relative rounded-3xl overflow-hidden aspect-square">
-                <Image src="/images/team/team_5.jpg" alt="CaplinkTrades team member" fill className="object-cover" />
+                <Image src="/images/team/team_5.jpg" alt="CaplinkMarkets team member" fill className="object-cover" />
               </div>
             </div>
           </div>

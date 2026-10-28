@@ -46,11 +46,11 @@ const siteUrl =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "CaplinkTrades — Copy Trading Platform",
-    template: "%s | CaplinkTrades",
+    default: "CaplinkMarkets — Copy Trading Platform",
+    template: "%s | CaplinkMarkets",
   },
   description:
-    "Copy top traders automatically with CaplinkTrades. Real-time trade copying, smart portfolio management, and AutoGuard risk protection for every investor.",
+    "Copy top traders automatically with CaplinkMarkets. Real-time trade copying, smart portfolio management, and AutoGuard risk protection for every investor.",
   keywords: [
     "copy trading",
     "social trading",
@@ -60,11 +60,11 @@ export const metadata: Metadata = {
     "stock copy trading",
     "auto trading",
     "investment platform",
-    "CaplinkTrades",
+    "CaplinkMarkets",
   ],
-  authors: [{ name: "CaplinkTrades", url: "https://caplinkmarkets.com" }],
-  creator: "CaplinkTrades",
-  publisher: "CaplinkTrades",
+  authors: [{ name: "CaplinkMarkets", url: "https://caplinkmarkets.com" }],
+  creator: "CaplinkMarkets",
+  publisher: "CaplinkMarkets",
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
@@ -80,26 +80,26 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://caplinkmarkets.com",
-    siteName: "CaplinkTrades",
-    title: "CaplinkTrades — Copy Trading Platform",
+    siteName: "CaplinkMarkets",
+    title: "CaplinkMarkets — Copy Trading Platform",
     description:
-      "Copy top traders automatically with CaplinkTrades. Real-time trade copying, smart portfolio management, and AutoGuard risk protection.",
+      "Copy top traders automatically with CaplinkMarkets. Real-time trade copying, smart portfolio management, and AutoGuard risk protection.",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "CaplinkTrades — Copy Trading Platform",
+        alt: "CaplinkMarkets — Copy Trading Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "CaplinkTrades — Copy Trading Platform",
+    title: "CaplinkMarkets — Copy Trading Platform",
     description:
-      "Copy top traders automatically with CaplinkTrades. Real-time trade copying, smart portfolio management, and AutoGuard risk protection.",
+      "Copy top traders automatically with CaplinkMarkets. Real-time trade copying, smart portfolio management, and AutoGuard risk protection.",
     images: ["/opengraph-image.png"],
-    creator: "@CaplinkTrades",
+    creator: "@CaplinkMarkets",
   },
   robots: {
     index: true,

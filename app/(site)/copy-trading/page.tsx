@@ -3,9 +3,9 @@
 export const metadata: Metadata = {
   title: "Copy Trading",
   description:
-    "Discover how CaplinkTrades copy trading works. Follow expert traders, mirror their positions in real time, and grow your portfolio without years of experience.",
+    "Discover how CaplinkMarkets copy trading works. Follow expert traders, mirror their positions in real time, and grow your portfolio without years of experience.",
   openGraph: {
-    title: "Copy Trading | CaplinkTrades",
+    title: "Copy Trading | CaplinkMarkets",
     description:
       "Follow expert traders and mirror their positions in real time. Grow your portfolio without years of experience.",
     url: "https://caplinkmarkets.com/copy-trading",
@@ -14,13 +14,13 @@ export const metadata: Metadata = {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "CaplinkTrades — Copy Trading Platform",
+        alt: "CaplinkMarkets — Copy Trading Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Copy Trading | CaplinkTrades",
+    title: "Copy Trading | CaplinkMarkets",
     description:
       "Follow expert traders and mirror their positions in real time. Grow your portfolio without years of experience.",
     images: ["/opengraph-image.png"],

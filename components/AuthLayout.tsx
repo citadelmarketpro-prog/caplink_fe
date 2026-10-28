@@ -30,7 +30,7 @@ export default function AuthLayout({
         <Link href="/" className="flex items-center mb-10 shrink-0">
           <Image
             src="/logos/logo_one.png"
-            alt="CaplinkTrades"
+            alt="CaplinkMarkets"
             width={1600}
             height={375}
             priority
@@ -57,7 +57,7 @@ export default function AuthLayout({
       <div className="hidden lg:flex relative w-[48%] xl:w-[46%] shrink-0 flex-col">
         <Image
           src="/account_creation_green.jpg"
-          alt="CaplinkTrades trading background"
+          alt="CaplinkMarkets trading background"
           fill
           className="object-cover object-center"
           priority

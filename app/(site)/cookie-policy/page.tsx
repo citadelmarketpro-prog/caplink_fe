@@ -115,7 +115,7 @@ export default function CookiePolicyPage() {
                 <SectionHeading>Cookies Policy</SectionHeading>
 
                 <BodyText>
-                  When you use our Website, CaplinkTrades will use cookies to distinguish you from
+                  When you use our Website, CaplinkMarkets will use cookies to distinguish you from
                   other users of our Website. This helps us provide you with a more relevant and
                   effective experience, including presenting the Website according to your needs and
                   preferences.
