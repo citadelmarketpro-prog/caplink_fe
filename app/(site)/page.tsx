@@ -1,0 +1,85 @@
+﻿import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Copy Top Traders Automatically",
+  description:
+    "Join CaplinkTrades and automatically copy the trades of expert investors. Start building your portfolio today with real-time trade signals and smart risk management.",
+  keywords: [
+    "copy trading platform",
+    "copy top traders",
+    "auto trade copy",
+    "signal trading",
+    "social investing",
+  ],
+  openGraph: {
+    title: "CaplinkTrades — Copy Top Traders Automatically",
+    description:
+      "Join CaplinkTrades and automatically copy the trades of expert investors. Real-time signals, smart portfolios, and AutoGuard risk protection.",
+    url: "https://hagoscapitals.com",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "CaplinkTrades — Copy Trading Platform",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CaplinkTrades — Copy Top Traders Automatically",
+    description:
+      "Join CaplinkTrades and automatically copy the trades of expert investors. Real-time signals, smart portfolios, and AutoGuard risk protection.",
+    images: ["/opengraph-image.png"],
+  },
+};
+
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import HowItWorks from "@/components/HowItWorks";
+import YouShouldKnow from "@/components/YouShouldKnow";
+import TradersSection, { type Trader } from "@/components/TradersSection";
+import WhyChoose from "@/components/WhyChoose";
+import WhatYouCanCopy from "@/components/WhatYouCanCopy";
+import FAQSection from "@/components/FAQSection";
+import TrustSection from "@/components/TrustSection";
+import ReadyToInvest from "@/components/ReadyToInvest";
+import Footer from "@/components/Footer";
+
+const BACKEND_ORIGIN = (process.env.BACKEND_ORIGIN ?? "http://localhost:8000").replace(/\/$/, "");
+
+async function getTopTraders(): Promise<Trader[]> {
+  try {
+    const res = await fetch(`${BACKEND_ORIGIN}/api/traders/public/`, {
+      next: { revalidate: 300 },
+    });
+    if (!res.ok) return [];
+    return await res.json();
+  } catch {
+    return [];
+  }
+}
+
+export default async function Home() {
+  const traders = await getTopTraders();
+  return (
+    <main>
+      <Navbar transparent />
+      <Hero />
+      <HowItWorks />
+      <YouShouldKnow />
+      <TradersSection traders={traders} />
+      <WhyChoose />
+      <WhatYouCanCopy />
+      <FAQSection />
+      <TrustSection />
+      <ReadyToInvest />
+      <Footer />
+    </main>
+  );
+}
+
+
+
+
+
