@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Declaration of Consent | CaplinkTrades",
     description:
       "Review the consents you provide when creating a CaplinkTrades account and using our services.",
-    url: "https://caplinktrade.com/declaration-of-consent",
+    url: "https://caplinkmarkets.com/declaration-of-consent",
     images: [
       {
         url: "/opengraph-image.png",

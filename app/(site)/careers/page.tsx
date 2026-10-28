@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Careers | CaplinkTrades",
     description:
       "Join the CaplinkTrades team. We're hiring engineers, designers, and financial professionals passionate about democratising investing.",
-    url: "https://caplinktrade.com/careers",
+    url: "https://caplinkmarkets.com/careers",
     images: [
       {
         url: "/opengraph-image.png",

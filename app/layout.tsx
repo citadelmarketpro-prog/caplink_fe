@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     "investment platform",
     "CaplinkTrades",
   ],
-  authors: [{ name: "CaplinkTrades", url: "https://caplinktrade.com" }],
+  authors: [{ name: "CaplinkTrades", url: "https://caplinkmarkets.com" }],
   creator: "CaplinkTrades",
   publisher: "CaplinkTrades",
   icons: {
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://caplinktrade.com",
+    url: "https://caplinkmarkets.com",
     siteName: "CaplinkTrades",
     title: "CaplinkTrades — Copy Trading Platform",
     description:

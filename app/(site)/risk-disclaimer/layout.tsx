@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Risk Disclaimer | CaplinkTrades",
     description:
       "Important risk disclosure for CaplinkTrades users. Copy trading involves financial risk.",
-    url: "https://caplinktrade.com/risk-disclaimer",
+    url: "https://caplinkmarkets.com/risk-disclaimer",
     images: [
       {
         url: "/opengraph-image.png",

@@ -286,7 +286,7 @@ export default function EulaPage() {
                     discretion, to unilaterally change and/or amend the terms and conditions of this
                     Agreement. Any new format of this Agreement posted on CaplinkTrades&apos;s Website shall
                     be considered as sufficient notice. You should regularly check{" "}
-                    <LimeLink href="https://www.caplinktrade.com">www.caplinktrade.com</LimeLink>{" "}
+                    <LimeLink href="https://www.caplinkmarkets.com">www.caplinkmarkets.com</LimeLink>{" "}
                     to stay informed about any modifications to the End-User License Agreement or
                     other relevant Terms and Conditions.
                   </BodyText>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Privacy Policy | CaplinkTrades",
     description:
       "Learn how CaplinkTrades collects, uses, and protects your personal data.",
-    url: "https://caplinktrade.com/privacy-policy",
+    url: "https://caplinkmarkets.com/privacy-policy",
     images: [
       {
         url: "/opengraph-image.png",

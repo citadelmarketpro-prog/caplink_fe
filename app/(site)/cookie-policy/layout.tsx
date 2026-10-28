@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Cookie Policy | CaplinkTrades",
     description: "Find out which cookies CaplinkTrades uses and how to manage your preferences.",
-    url: "https://caplinktrade.com/cookie-policy",
+    url: "https://caplinkmarkets.com/cookie-policy",
     images: [
       {
         url: "/opengraph-image.png",

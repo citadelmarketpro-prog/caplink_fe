@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Broker Partnership | CaplinkTrades",
     description:
       "Partner with CaplinkTrades as a broker. Integrate copy trading technology and offer best-in-class social investing tools.",
-    url: "https://caplinktrade.com/broker",
+    url: "https://caplinkmarkets.com/broker",
     images: [
       {
         url: "/opengraph-image.png",

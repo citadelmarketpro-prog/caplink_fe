@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Contact Us | CaplinkTrades",
     description:
       "Get in touch with the CaplinkTrades team. Send us a message and we'll get back to you shortly.",
-    url: "https://caplinktrade.com/contact-us",
+    url: "https://caplinkmarkets.com/contact-us",
     images: [
       {
         url: "/opengraph-image.png",

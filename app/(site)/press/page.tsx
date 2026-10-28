@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Press | CaplinkTrades",
     description:
       "CaplinkTrades in the news. Latest press coverage, media mentions, and official press releases.",
-    url: "https://caplinktrade.com/press",
+    url: "https://caplinkmarkets.com/press",
     images: [
       {
         url: "/opengraph-image.png",

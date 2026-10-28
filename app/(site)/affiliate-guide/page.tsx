@@ -217,33 +217,33 @@ export default function AffiliateGuidePage() {
                   {/* Card A */}
                   <ExampleCard letter="A">
                     <BodyText dark>
-                      Client registers for an Investor account through www.caplinktrade.com?ref=affiliateA_ID
-                      or registers from www.caplinktrade.com with a prior landing from Affiliate URL
-                      www.caplinktrade.com?ref=affiliateA_ID
+                      Client registers for an Investor account through www.caplinkmarkets.com?ref=affiliateA_ID
+                      or registers from www.caplinkmarkets.com with a prior landing from Affiliate URL
+                      www.caplinkmarkets.com?ref=affiliateA_ID
                     </BodyText>
                     <CardArrowLine>
                       Account is placed under the Affiliate:{" "}
-                      <LimeLink href="#">www.caplinktrade.com?ref=affiliateA_ID</LimeLink>
+                      <LimeLink href="#">www.caplinkmarkets.com?ref=affiliateA_ID</LimeLink>
                     </CardArrowLine>
                   </ExampleCard>
 
                   {/* Card B */}
                   <ExampleCard letter="B">
                     <BodyText dark>
-                      Client registers a Demo or Live account through www.caplinktrade.com without any
+                      Client registers a Demo or Live account through www.caplinkmarkets.com without any
                       prior landings from an Affiliate URL, however he/she has a previously existing
                       account(s) with the same email under Affiliate A
                     </BodyText>
                     <CardArrowLine>
                       Account is placed under the Affiliate:{" "}
-                      <LimeLink href="#">www.caplinktrade.com?ref=affiliateA_ID</LimeLink>
+                      <LimeLink href="#">www.caplinkmarkets.com?ref=affiliateA_ID</LimeLink>
                     </CardArrowLine>
                   </ExampleCard>
 
                   {/* Card C */}
                   <ExampleCard letter="C">
                     <BodyText dark>
-                      Client registers for an Investor account through www.caplinktrade.com without any
+                      Client registers for an Investor account through www.caplinkmarkets.com without any
                       prior landings from an Affiliate URL, however he/she has a previously existing
                       account(s) under Affiliate A
                     </BodyText>
@@ -301,7 +301,7 @@ export default function AffiliateGuidePage() {
                   email at{" "}
                   <LimeLink href="mailto:support@caplinktrade.com">support@caplinktrade.com</LimeLink>
                   , by telephone or by Live Chat. For further details please visit{" "}
-                  <LimeLink href="#">https://www.caplinktrade.com/help-center</LimeLink>.
+                  <LimeLink href="#">https://www.caplinkmarkets.com/help-center</LimeLink>.
                 </BodyText>
 
                 <BodyText>

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Terms of Service | CaplinkTrades",
     description: "Read the CaplinkTrades Terms of Service governing use of our copy trading platform.",
-    url: "https://caplinktrade.com/terms",
+    url: "https://caplinkmarkets.com/terms",
     images: [
       {
         url: "/opengraph-image.png",

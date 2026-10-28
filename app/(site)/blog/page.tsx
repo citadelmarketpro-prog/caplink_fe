@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Blog | CaplinkTrades",
     description:
       "Trading tips, platform updates, market insights, and community stories from the CaplinkTrades team.",
-    url: "https://caplinktrade.com/blog",
+    url: "https://caplinkmarkets.com/blog",
     images: [
       {
         url: "/opengraph-image.png",
