@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: "CaplinkTrades — Copy Top Traders Automatically",
     description:
       "Join CaplinkTrades and automatically copy the trades of expert investors. Real-time signals, smart portfolios, and AutoGuard risk protection.",
-    url: "https://hagoscapitals.com",
+    url: "https://caplinktrade.com",
     images: [
       {
         url: "/opengraph-image.png",

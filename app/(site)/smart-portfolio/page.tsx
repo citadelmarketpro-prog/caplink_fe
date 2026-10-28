@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Smart Portfolio | CaplinkTrades",
     description:
       "Build a diversified investment portfolio automatically. Intelligent allocation across top-performing traders and asset classes.",
-    url: "https://hagoscapitals.com/smart-portfolio",
+    url: "https://caplinktrade.com/smart-portfolio",
     images: [
       {
         url: "/opengraph-image.png",

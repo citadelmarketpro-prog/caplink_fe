@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Become a Leader Trader | CaplinkTrades",
     description:
       "Share your trading strategy and earn performance fees. Apply to become a Leader Trader on CaplinkTrades.",
-    url: "https://hagoscapitals.com/leader",
+    url: "https://caplinktrade.com/leader",
     images: [
       {
         url: "/opengraph-image.png",

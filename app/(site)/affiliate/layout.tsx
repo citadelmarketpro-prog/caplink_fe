@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Affiliate Programme | CaplinkTrades",
     description:
       "Earn passive income by referring traders to CaplinkTrades. Competitive commissions for every active user you bring.",
-    url: "https://hagoscapitals.com/affiliate",
+    url: "https://caplinktrade.com/affiliate",
     images: [
       {
         url: "/opengraph-image.png",

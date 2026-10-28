@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Conflict of Interest Policy | CaplinkTrades",
     description:
       "Learn how CaplinkTrades identifies, manages, and discloses potential conflicts of interest.",
-    url: "https://hagoscapitals.com/conflict-of-interest",
+    url: "https://caplinktrade.com/conflict-of-interest",
     images: [
       {
         url: "/opengraph-image.png",

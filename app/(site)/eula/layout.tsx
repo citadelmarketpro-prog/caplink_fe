@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "EULA | CaplinkTrades",
     description: "Read the CaplinkTrades End User Licence Agreement governing use of our software.",
-    url: "https://hagoscapitals.com/eula",
+    url: "https://caplinktrade.com/eula",
     images: [
       {
         url: "/opengraph-image.png",
