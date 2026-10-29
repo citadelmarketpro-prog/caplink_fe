@@ -143,7 +143,7 @@ export default async function RootLayout({
         
         {/* LiveChat - Jivo */}
         <Script
-          src="//code.jivosite.com/widget/wlChsKiI52"
+          src="//code.jivosite.com/widget/NZedUGy8Lm"
           strategy="afterInteractive"
         />
       
