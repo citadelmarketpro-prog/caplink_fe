@@ -105,7 +105,7 @@ export default function DashNav() {
  width={1400}
  height={328}
  priority
- className="h-8 sm:h-9 w-auto object-contain"
+ className="h-6 sm:h-7 w-auto object-contain"
  />
  </Link>
 
@@ -243,7 +243,7 @@ export default function DashNav() {
  alt="CaplinkMarkets"
  width={1400}
  height={328}
- className="h-8 w-auto object-contain"
+ className="h-6 w-auto object-contain"
  />
  </Link>
  <div className="flex items-center gap-1 shrink-0">
