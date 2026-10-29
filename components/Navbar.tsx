@@ -51,7 +51,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
             width={1400}
             height={328}
             priority
-            className={`h-9 lg:h-10 w-auto object-contain transition-all duration-300 ${
+            className={`h-6 lg:h-10 w-auto object-contain transition-all duration-300 ${
               isOverlay ? "brightness-0 invert lg:brightness-100 lg:invert-0" : ""
             }`}
           />
