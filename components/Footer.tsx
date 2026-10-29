@@ -7,6 +7,7 @@ import { useTranslations } from "next-intl";
 import { Plus, Minus } from "lucide-react";
 import { m, AnimatePresence } from "framer-motion";
 import { FadeUp, SlideIn, ICON_BTN_TAP, ICON_BTN_SPRING } from "@/components/ScrollReveal";
+import LangSwitcher from "@/components/LangSwitcher";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -162,13 +163,16 @@ export default function Footer() {
         </div>
 
         {/* ── Copyright ── */}
-        <div className="px-6 lg:px-[72px] py-5 border-t border-[#e8ead8] flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-          <p className="text-[12px] text-[#888888]">
-            {t("copyright")}
-          </p>
-          <p className="text-[12px] text-[#888888]">
-            {t("secNumber")}
-          </p>
+        <div className="px-6 lg:px-[72px] py-5 border-t border-[#e8ead8] flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4">
+            <p className="text-[12px] text-[#888888]">
+              {t("copyright")}
+            </p>
+            <p className="text-[12px] text-[#888888]">
+              {t("secNumber")}
+            </p>
+          </div>
+          <LangSwitcher openUp />
         </div>
 
       </div>
