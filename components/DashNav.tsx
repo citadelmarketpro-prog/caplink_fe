@@ -303,12 +303,6 @@ export default function DashNav() {
  <span className="text-[14px]">{label}</span>
  </Link>
  ))}
-
- <div className="h-px bg-[#f0f0ec] dark:bg-white/5 my-1" />
-
- <div className="px-5 py-3">
- <LangSwitcher dark={theme === "dark"} openUp />
- </div>
  </nav>
  </aside>
 
