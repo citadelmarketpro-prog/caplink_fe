@@ -12,6 +12,7 @@ export default function RiskDisclaimerPage() {
   const NAV_SECTIONS = [
     { id: "risk-disclaimer", label: t("navRiskDisclaimer") },
     { id: "full-disclaimer", label: t("navFullDisclaimer") },
+    { id: "regulatory-information", label: "Regulatory Information" },
   ];
   const [activeId, setActiveId] = useState("risk-disclaimer");
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -150,6 +151,33 @@ export default function RiskDisclaimerPage() {
 
                 <BodyText>
                   {t("fullPara5")}
+                </BodyText>
+              </FadeUp>
+        </section>
+
+              {/* ═══════════════════════════════════
+                  3. REGULATORY INFORMATION
+              ═══════════════════════════════════ */}
+              <section id="regulatory-information" className="flex flex-col gap-5 scroll-mt-34 lg:scroll-mt-28">
+        <FadeUp>
+                <SectionHeading>Regulatory Information</SectionHeading>
+
+                <BodyText>
+                  CapLink Securities, Inc.
+                  <br />
+                  Also doing business as: CapLink Securities, Inc., Centara Capital Securities, Inc.
+                  <br />
+                  CRD#: 130702 / SEC#: 8-66379
+                  <br />
+                  Brokerage Firm regulated by FINRA (Los Angeles District Office)
+                </BodyText>
+
+                <BodyText>
+                  <span className="font-semibold text-[#001011]">Main Address</span>
+                  <br />
+                  1230 Rosecrans Avenue, Suite 300
+                  <br />
+                  Manhattan Beach, CA 90266, United States
                 </BodyText>
               </FadeUp>
         </section>

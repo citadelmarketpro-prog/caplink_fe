@@ -159,6 +159,19 @@ export default function ContactUsPage() {
               </form>
             )}
           </div>
+
+          <div className="max-w-[600px] mx-auto mt-10 text-center">
+            <p className="text-[12px] font-semibold uppercase tracking-[0.08em] text-[#888888] mb-2">
+              Main Address
+            </p>
+            <p className="text-[14px] leading-[1.8] text-[#444444]">
+              CapLink Securities, Inc.
+              <br />
+              1230 Rosecrans Avenue, Suite 300
+              <br />
+              Manhattan Beach, CA 90266, United States
+            </p>
+          </div>
         </div>
       </FadeUp>
       </section>
