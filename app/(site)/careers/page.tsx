@@ -3,26 +3,26 @@
 export const metadata: Metadata = {
   title: "Careers",
   description:
-    "Join the CaplinkMarkets team. We're hiring engineers, designers, and financial professionals passionate about democratising investing. View open roles.",
+    "Join the CapLink Markets team. We're hiring engineers, designers, and financial professionals passionate about democratising investing. View open roles.",
   openGraph: {
-    title: "Careers | CaplinkMarkets",
+    title: "Careers | CapLink Markets",
     description:
-      "Join the CaplinkMarkets team. We're hiring engineers, designers, and financial professionals passionate about democratising investing.",
+      "Join the CapLink Markets team. We're hiring engineers, designers, and financial professionals passionate about democratising investing.",
     url: "https://caplinkmarkets.com/careers",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "CaplinkMarkets — Copy Trading Platform",
+        alt: "CapLink Markets — Mirror Trading Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Careers | CaplinkMarkets",
+    title: "Careers | CapLink Markets",
     description:
-      "Join the CaplinkMarkets team. We're hiring engineers, designers, and financial professionals passionate about democratising investing.",
+      "Join the CapLink Markets team. We're hiring engineers, designers, and financial professionals passionate about democratising investing.",
     images: ["/opengraph-image.png"],
   },
 };
@@ -34,12 +34,12 @@ import Footer from "@/components/Footer";
 import { FadeUp } from "@/components/ScrollReveal";
 
 const LIFE_PHOTOS = [
-  { src: "/images/team/team_3.jpg",   alt: "CaplinkMarkets team member at work" },
-  { src: "/images/business-1.jpg",    alt: "CaplinkMarkets team collaborating" },
-  { src: "/images/team/team_4.jpg",   alt: "CaplinkMarkets team member" },
-  { src: "/images/team/team_5.jpg",   alt: "CaplinkMarkets team member" },
-  { src: "/images/business-2.jpg",    alt: "CaplinkMarkets office" },
-  { src: "/images/team/team_6.jpg",   alt: "CaplinkMarkets team member" },
+  { src: "/images/team/team_3.jpg",   alt: "CapLink Markets team member at work" },
+  { src: "/images/business-1.jpg",    alt: "CapLink Markets team collaborating" },
+  { src: "/images/team/team_4.jpg",   alt: "CapLink Markets team member" },
+  { src: "/images/team/team_5.jpg",   alt: "CapLink Markets team member" },
+  { src: "/images/business-2.jpg",    alt: "CapLink Markets office" },
+  { src: "/images/team/team_6.jpg",   alt: "CapLink Markets team member" },
 ];
 
 const DEPT_COLORS: Record<string, string> = {
@@ -91,7 +91,7 @@ export default async function CareersPage() {
             <div className="relative rounded-3xl overflow-hidden aspect-4/3">
               <Image
                 src="/images/happy-business.jpg"
-                alt="The CaplinkMarkets team at work"
+                alt="The CapLink Markets team at work"
                 fill
                 className="object-cover"
                 priority
@@ -121,7 +121,7 @@ export default async function CareersPage() {
       </FadeUp>
         </section>
 
-      {/* Life at CaplinkMarkets — photo gallery */}
+      {/* Life at CapLink Markets — photo gallery */}
       <section className="w-full bg-white">
         <FadeUp>
         <div className="max-w-[1440px] mx-auto px-6 lg:px-[72px] py-14 lg:py-20">

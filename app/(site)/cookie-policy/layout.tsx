@@ -3,24 +3,24 @@
 export const metadata: Metadata = {
   title: "Cookie Policy",
   description:
-    "CaplinkMarkets Cookie Policy. Find out which cookies we use, why we use them, and how you can manage your cookie preferences.",
+    "CapLink Markets Cookie Policy. Find out which cookies we use, why we use them, and how you can manage your cookie preferences.",
   openGraph: {
-    title: "Cookie Policy | CaplinkMarkets",
-    description: "Find out which cookies CaplinkMarkets uses and how to manage your preferences.",
+    title: "Cookie Policy | CapLink Markets",
+    description: "Find out which cookies CapLink Markets uses and how to manage your preferences.",
     url: "https://caplinkmarkets.com/cookie-policy",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "CaplinkMarkets — Copy Trading Platform",
+        alt: "CapLink Markets — Mirror Trading Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cookie Policy | CaplinkMarkets",
-    description: "Find out which cookies CaplinkMarkets uses and how to manage your preferences.",
+    title: "Cookie Policy | CapLink Markets",
+    description: "Find out which cookies CapLink Markets uses and how to manage your preferences.",
     images: ["/opengraph-image.png"],
   },
 };

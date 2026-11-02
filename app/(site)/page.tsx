@@ -1,35 +1,35 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Copy Top Traders Automatically",
+  title: "Mirror Top Traders Automatically",
   description:
-    "Join CaplinkMarkets and automatically copy the trades of expert investors. Start building your portfolio today with real-time trade signals and smart risk management.",
+    "Join CapLink Markets and automatically mirror the trades of expert investors. Start building your portfolio today with real-time trade signals and smart risk management.",
   keywords: [
-    "copy trading platform",
-    "copy top traders",
-    "auto trade copy",
+    "mirror trading platform",
+    "mirror top traders",
+    "auto trade mirror",
     "signal trading",
     "social investing",
   ],
   openGraph: {
-    title: "CaplinkMarkets — Copy Top Traders Automatically",
+    title: "CapLink Markets — Mirror Top Traders Automatically",
     description:
-      "Join CaplinkMarkets and automatically copy the trades of expert investors. Real-time signals, smart portfolios, and AutoGuard risk protection.",
+      "Join CapLink Markets and automatically mirror the trades of expert investors. Real-time signals, smart portfolios, and AutoGuard risk protection.",
     url: "https://caplinkmarkets.com",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "CaplinkMarkets — Copy Trading Platform",
+        alt: "CapLink Markets — Mirror Trading Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "CaplinkMarkets — Copy Top Traders Automatically",
+    title: "CapLink Markets — Mirror Top Traders Automatically",
     description:
-      "Join CaplinkMarkets and automatically copy the trades of expert investors. Real-time signals, smart portfolios, and AutoGuard risk protection.",
+      "Join CapLink Markets and automatically mirror the trades of expert investors. Real-time signals, smart portfolios, and AutoGuard risk protection.",
     images: ["/opengraph-image.png"],
   },
 };

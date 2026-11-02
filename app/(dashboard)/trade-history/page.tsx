@@ -193,9 +193,9 @@ export default function TradeHistoryPage() {
  const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
  const [expanded, setExpanded] = useState<Set<number>>(new Set());
 
- const { data, isLoading: loading } = useSWR<{ trades: CopyTrade[]; copying: CopyingTrader[] }>("/api/dashboard/copy-trades/");
+ const { data, isLoading: loading } = useSWR<{ trades: CopyTrade[]; mirroring: CopyingTrader[] }>("/api/dashboard/mirror-trades/");
  const trades = data?.trades ?? [];
- const copying = data?.copying ?? [];
+ const mirroring = data?.mirroring ?? [];
 
  function toggleExpand(id: number) {
  setExpanded((prev) => {
@@ -259,15 +259,15 @@ export default function TradeHistoryPage() {
  <div>
  <h1 className="text-[18px] font-bold text-[#001011] dark:text-white leading-none">Trade History</h1>
  <p className="text-[12px] text-[#888888] dark:text-white/55 mt-0.5">
- {loading ? "All copied trades" : `${trades.length} trade${trades.length !== 1 ? "s" : ""} total`}
+ {loading ? "All mirrored trades" : `${trades.length} trade${trades.length !== 1 ? "s" : ""} total`}
  </p>
  </div>
  </div>
 
- {/* ── Currently copying banner(s) ── */}
- {copying.length > 0 && (
+ {/* ── Currently mirroring banner(s) ── */}
+ {mirroring.length > 0 && (
  <div className="space-y-2.5 mb-5">
- {copying.map((c) => (
+ {mirroring.map((c) => (
  <Link key={c.id} href={`/traders/${c.trader_id}`}>
  <div className="flex items-center gap-3.5 p-3.5 bg-white dark:bg-[#0a0a0a] border border-[#e5e5e5] dark:border-transparent dark:shadow-card-dark rounded-xl hover:border-[#06811d] transition-colors cursor-pointer">
  {c.avatar_url ? (
@@ -292,7 +292,7 @@ export default function TradeHistoryPage() {
  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#06811d" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
  <path d="M20 6L9 17l-5-5" />
  </svg>
- <span className="text-[11px] text-[#06811d] font-semibold">Currently Copying</span>
+ <span className="text-[11px] text-[#06811d] font-semibold">Currently Mirroring</span>
  </div>
  <p className="text-[13.5px] font-bold text-[#001011] dark:text-white truncate">{c.trader_name}</p>
  </div>
@@ -452,7 +452,7 @@ export default function TradeHistoryPage() {
  </p>
  <p className="text-[13px] text-[#888888] dark:text-white/55 mb-5">
  {trades.length === 0
- ? "Start copying expert traders to see your trade history here"
+ ? "Start mirroring expert traders to see your trade history here"
  : "Try adjusting or clearing your filters"}
  </p>
  {trades.length === 0 && (

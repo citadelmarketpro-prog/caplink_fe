@@ -184,7 +184,7 @@ function TraderCard({ trader }: { trader: Trader }) {
         </span>
       </div>
 
-      {/* Copy trader button */}
+      {/* Mirror trader button */}
       <div className="px-4 pb-4 mt-auto">
         <Link
           href="/sign-up"

@@ -305,7 +305,7 @@ export default function TraderDetailPage() {
  const { data: similar = [] } = useSWR<SimilarTrader[]>(id ? `/api/traders/${id}/similar/` : null);
  const loading = !trader;
 
- // Sync copy status from trader data
+ // Sync mirror status from trader data
  useEffect(() => {
  if (!trader) return;
  setIsCopying(trader.copy_status === "active");
@@ -318,16 +318,16 @@ export default function TraderDetailPage() {
  const minCap = parseFloat(String(trader.min_capital));
  if (funds < minCap) {
  toast.error("Insufficient balance", {
- description: `You need at least ${trader.minCapitalDisplay} to copy this trader.`,
+ description: `You need at least ${trader.minCapitalDisplay} to mirror this trader.`,
  });
  return;
  }
  try {
  setCopyLoading(true);
- await api.post(`/api/traders/${id}/copy/`);
+ await api.post(`/api/traders/${id}/mirror/`);
  setIsCopying(true);
  } catch (err) {
- const msg = err instanceof Error ? err.message : "Failed to start copying. Please try again.";
+ const msg = err instanceof Error ? err.message : "Failed to start mirroring. Please try again.";
  toast.error(msg);
  } finally {
  setCopyLoading(false);
@@ -337,7 +337,7 @@ export default function TraderDetailPage() {
  const handleCancel = useCallback(async () => {
  try {
  setCopyLoading(true);
- await api.delete(`/api/traders/${id}/copy/`);
+ await api.delete(`/api/traders/${id}/mirror/`);
  setIsCopying(false);
  setCancelRequested(true);
  toast.success("Cancel requested", {
@@ -467,7 +467,7 @@ export default function TraderDetailPage() {
  style={{ backgroundColor: "#06811d" }}
  >
  <span className="w-2 h-2 rounded-full bg-green-600 animate-pulse" />
- Copying
+ Mirroring
  </span>
  <button
  onClick={handleCancel}
@@ -484,7 +484,7 @@ export default function TraderDetailPage() {
  className="h-8 px-3.5 rounded-full text-[12px] font-bold text-white transition-opacity hover:opacity-90 disabled:opacity-50"
  style={{ backgroundColor: "#06811d" }}
  >
- {copyLoading ? "..." : "Copy Trader"}
+ {copyLoading ? "..." : "Mirror Trader"}
  </button>
  )}
  </div>
@@ -1124,7 +1124,7 @@ function TradeHistoryTab({ trader }: { trader?: TraderDetail }) {
 /* ══════════════════════════════════════════════════════════════
  COPIERS TAB — aggregate copier stats (orchard_capitals' Trader
  model has no per-copier relational rows; the platform's own
- real copiers are managed via the copy/cancel flow above).
+ real copiers are managed via the mirror/cancel flow above).
 ══════════════════════════════════════════════════════════════ */
 
 function CopiersTab({ trader }: { trader?: TraderDetail }) {
@@ -1208,7 +1208,7 @@ function SimilarTraderCard({ trader }: { trader: SimilarTrader }) {
  </div>
 
  <div className="w-full h-9 border border-[#e5e5e5] dark:border-transparent dark:shadow-card-dark text-[12px] font-bold text-[#001011] dark:text-white flex items-center justify-center hover:bg-white dark:hover:bg-black transition-colors">
- Copy trader
+ Mirror trader
  </div>
  </Link>
  );

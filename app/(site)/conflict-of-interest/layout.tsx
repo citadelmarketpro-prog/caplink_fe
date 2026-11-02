@@ -3,26 +3,26 @@
 export const metadata: Metadata = {
   title: "Conflict of Interest Policy",
   description:
-    "CaplinkMarkets Conflict of Interest Policy. Learn how we identify, manage, and disclose potential conflicts of interest to protect our users.",
+    "CapLink Markets Conflict of Interest Policy. Learn how we identify, manage, and disclose potential conflicts of interest to protect our users.",
   openGraph: {
-    title: "Conflict of Interest Policy | CaplinkMarkets",
+    title: "Conflict of Interest Policy | CapLink Markets",
     description:
-      "Learn how CaplinkMarkets identifies, manages, and discloses potential conflicts of interest.",
+      "Learn how CapLink Markets identifies, manages, and discloses potential conflicts of interest.",
     url: "https://caplinkmarkets.com/conflict-of-interest",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "CaplinkMarkets — Copy Trading Platform",
+        alt: "CapLink Markets — Mirror Trading Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Conflict of Interest Policy | CaplinkMarkets",
+    title: "Conflict of Interest Policy | CapLink Markets",
     description:
-      "Learn how CaplinkMarkets identifies, manages, and discloses potential conflicts of interest.",
+      "Learn how CapLink Markets identifies, manages, and discloses potential conflicts of interest.",
     images: ["/opengraph-image.png"],
   },
 };

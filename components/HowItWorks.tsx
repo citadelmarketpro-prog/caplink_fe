@@ -115,7 +115,7 @@ function Card2() {
   );
 }
 
-/* ── Card 3: Copy Trades Automatically ──────────────────────────── */
+/* ── Card 3: Mirror Trades Automatically ──────────────────────────── */
 function Card3() {
   const t = useTranslations("howItWorks");
   return (
@@ -148,7 +148,7 @@ function Card3() {
         <span className="text-[10px] font-medium text-[#001011]">{t("riskLevel")}</span>
         <span className="text-[9px] font-semibold px-2.5 py-1 rounded-full bg-[#fee2e2] text-[#dc2626]">{t("balancedRisk")}</span>
       </div>
-      {/* Copy trader button */}
+      {/* Mirror trader button */}
       <button className="w-full h-8 border border-[#e0e0da] bg-white text-[10px] font-bold text-[#001011] rounded-full">
         {t("copyTrader")}
       </button>

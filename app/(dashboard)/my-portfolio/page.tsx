@@ -48,7 +48,7 @@ export default function MyPortfolioPage() {
  <p className="text-[13px] text-[#555555] dark:text-white/80 text-center leading-relaxed max-w-[400px]">
  Hello, live trading interface becomes available once your capital meets the required threshold. After approval,
  you&apos;ll be able to access live sessions to learn proper risk management and gain control over your assets.
- For details on the specific requirements, please reach out directly to the trader whose account you&apos;re copying.
+ For details on the specific requirements, please reach out directly to the trader whose account you&apos;re mirroring.
  </p>
 
  </div>
@@ -158,7 +158,7 @@ function ProfileDropdown({
 
  {/* About */}
  <div className="bg-[#f5f5ef] dark:bg-white/5 border-b border-[#e5e5e5] dark:border-transparent dark:shadow-card-dark px-4 py-3 flex items-center justify-between cursor-pointer hover:bg-[#eeeee9] dark:hover:bg-white/5 transition-colors">
- <span className="text-[13px] font-medium text-[#001011] dark:text-white">About CaplinkMarkets</span>
+ <span className="text-[13px] font-medium text-[#001011] dark:text-white">About CapLink Markets</span>
  <ExternalIcon />
  </div>
 

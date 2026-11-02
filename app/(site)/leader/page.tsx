@@ -25,15 +25,15 @@ const LEADER_TABS = [
   {
     id: "broadcast",
     label: "Broadcast",
-    heading: "Share your trading signals in real time and let investors copy your moves automatically.",
-    body: "When you execute a trade, CaplinkMarkets broadcasts your signal to every investor copying you. Your strategies are mirrored proportionally to their capital, so they benefit directly from your expertise.",
+    heading: "Share your trading signals in real time and let investors mirror your moves automatically.",
+    body: "When you execute a trade, CapLink Markets broadcasts your signal to every investor mirroring you. Your strategies are mirrored proportionally to their capital, so they benefit directly from your expertise.",
   },
 ];
 
 /* ── Steps data ───────────────────────────────────────────────────── */
 const STEPS = [
   {
-    title: "Join CaplinkMarkets as a Leader",
+    title: "Join CapLink Markets as a Leader",
     body: "Access the Leaders Program page and sign up using our free form to fast-track your approval.",
   },
   {
@@ -41,8 +41,8 @@ const STEPS = [
     body: 'Fill your information on our Online Application Form. Gain access to the system and choose "Become a Leader" to start trading.',
   },
   {
-    title: "Investors Copy your Strategy & you Get Rewarded",
-    body: "Investors copy your signals according to their capital and risk management. You get paid 30% commission for every successful payment.",
+    title: "Investors Mirror your Strategy & you Get Rewarded",
+    body: "Investors mirror your signals according to their capital and risk management. You get paid 30% commission for every successful payment.",
   },
 ];
 
@@ -62,13 +62,13 @@ const PLATFORMS = [
   },
   {
     name: "XOH Trading Platform",
-    body: "XOH Trading Platform is our proprietary web-based platform designed specifically for social trading and copy trading, offering real-time copy trades for novice and expert traders alike.",
+    body: "XOH Trading Platform is our proprietary web-based platform designed specifically for social trading and mirror trading, offering real-time mirror trades for novice and expert traders alike.",
     icon: "XOH",
     accent: "#06811d",
   },
   {
     name: "ActTrader",
-    body: "ActTrader Platform is our modern copy trading platform with superior web technology, fast execution, an intuitive interface, and comprehensive charting tools for online trading needs.",
+    body: "ActTrader Platform is our modern mirror trading platform with superior web technology, fast execution, an intuitive interface, and comprehensive charting tools for online trading needs.",
     icon: "ACT",
     accent: "#4CAF50",
   },
@@ -94,23 +94,23 @@ const REASONS = [
   },
   {
     title: "Performance-Based Commissions",
-    body: "Earn up to 30% commission on successful trades. The more investors copy you and the better your performance, the higher your earnings.",
+    body: "Earn up to 30% commission on successful trades. The more investors mirror you and the better your performance, the higher your earnings.",
   },
   {
     title: "Global Reach",
-    body: "Access a worldwide network of investors looking to copy proven strategies. CaplinkMarkets's global platform connects you with followers across multiple markets.",
+    body: "Access a worldwide network of investors looking to mirror proven strategies. CapLink Markets's global platform connects you with followers across multiple markets.",
   },
 ];
 
 /* ── FAQ data ─────────────────────────────────────────────────────── */
 const FAQ_ITEMS = [
   {
-    q: "Can anyone become a CaplinkMarkets Leader?",
-    a: "Yes, anyone with trading experience and a proven track record can apply to become a CaplinkMarkets Leader.",
+    q: "Can anyone become a CapLink Markets Leader?",
+    a: "Yes, anyone with trading experience and a proven track record can apply to become a CapLink Markets Leader.",
   },
   {
-    q: "Can I become a Leader without being a CaplinkMarkets client?",
-    a: "No, you need to be a registered CaplinkMarkets client first. Once registered, you can apply to join the Leaders Program through your dashboard.",
+    q: "Can I become a Leader without being a CapLink Markets client?",
+    a: "No, you need to be a registered CapLink Markets client first. Once registered, you can apply to join the Leaders Program through your dashboard.",
   },
   {
     q: "What are the general trading hours for all the instruments?",
@@ -118,14 +118,14 @@ const FAQ_ITEMS = [
   },
   {
     q: "How will I become a successful Leader?",
-    a: "Consistent research, disciplined risk management, and transparent communication with your investors are the foundations. CaplinkMarkets also provides resources and a dedicated Leaders Desk to support your growth.",
+    a: "Consistent research, disciplined risk management, and transparent communication with your investors are the foundations. CapLink Markets also provides resources and a dedicated Leaders Desk to support your growth.",
   },
   {
-    q: "What are the charges for me as a new Leader with CaplinkMarkets?",
+    q: "What are the charges for me as a new Leader with CapLink Markets?",
     a: "There are no upfront or monthly fees to become a Leader. You only earn — you pay nothing. Commissions are performance-based and paid out automatically.",
   },
   {
-    q: "Is there a minimum amount for me to start trading with CaplinkMarkets?",
+    q: "Is there a minimum amount for me to start trading with CapLink Markets?",
     a: "Yes, a minimum deposit is required to open a Leader account. Please refer to our account requirements page or contact our Leaders Desk for current minimum deposit details.",
   },
 ];
@@ -167,11 +167,11 @@ export default function LeaderPage() {
           <h1 className="font-bold leading-[1.08] text-[#001011] text-[42px] sm:text-[58px] lg:text-[76px] max-w-4xl">
             Become a Leader with
             <br />
-            <span className="text-[#06811d]">CaplinkMarkets</span>
+            <span className="text-[#06811d]">CapLink Markets</span>
           </h1>
 
           <p className="mt-6 max-w-2xl text-[14px] lg:text-[15px] leading-[1.8] text-[#444444]">
-            CaplinkMarkets is one of the most transparent social trading platforms in the world,
+            CapLink Markets is one of the most transparent social trading platforms in the world,
             where each goal is to support investors and traders in their investment goals. Our
             Leader Program is open for individual traders who possess trading skills. Become a
             Leader today by sharing profitable signals and strategies with investors, to follow
@@ -316,7 +316,7 @@ export default function LeaderPage() {
           {/* Header row */}
           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-6 mb-12">
             <h2 className="text-[28px] lg:text-[38px] font-bold leading-tight text-[#001011] max-w-sm">
-              Reasons to Become a Leader with CaplinkMarkets
+              Reasons to Become a Leader with CapLink Markets
             </h2>
             <Link
               href="/sign-up"

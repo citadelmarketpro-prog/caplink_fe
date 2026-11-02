@@ -78,10 +78,10 @@ function getGreeting() {
 }
 
 export default function DashboardPage() {
- const { data: copyData, isLoading: loadingTrades } = useSWR<{ trades: CopyTrade[]; copying: CopyingTrader[] }>("/api/dashboard/copy-trades/");
+ const { data: copyData, isLoading: loadingTrades } = useSWR<{ trades: CopyTrade[]; mirroring: CopyingTrader[] }>("/api/dashboard/mirror-trades/");
  const { data: profile } = useSWR<UserProfile>("/api/auth/me/");
  const trades = copyData?.trades ?? [];
- const copying = copyData?.copying ?? [];
+ const mirroring = copyData?.mirroring ?? [];
 
  const firstName = profile?.first_name || "Trader";
  const kycStatus = profile?.kyc_status ?? null; // null = still loading
@@ -119,7 +119,7 @@ export default function DashboardPage() {
  <LiveTradingCard />
  <BreakdownCard />
  <div className="order-[5] lg:order-none">
- <FollowingCard copying={copying} loading={loadingTrades} />
+ <FollowingCard mirroring={mirroring} loading={loadingTrades} />
  </div>
  </div>
 
@@ -236,7 +236,7 @@ function ProfileDropdown({
 
  {/* About */}
  <div className="bg-[#f5f5ef] dark:bg-white/5 border-b border-[#e5e5e5] dark:border-transparent dark:shadow-card-dark px-4 py-3 flex items-center justify-between cursor-pointer hover:bg-[#eeeee9] dark:hover:bg-white/5 transition-colors">
- <span className="text-[13px] font-medium text-[#001011] dark:text-white">About CaplinkMarkets</span>
+ <span className="text-[13px] font-medium text-[#001011] dark:text-white">About CapLink Markets</span>
  <ExternalIcon />
  </div>
 
@@ -838,7 +838,7 @@ function TransferModal({ onClose }: { onClose: () => void }) {
 }
 
 /* ════════════════════════════════════════════════════════════════
- COPIED TRADES CARD
+ MIRRORED TRADES CARD
 ════════════════════════════════════════════════════════════════ */
 
 function TradeAssetIcon({ asset, logoUrl }: { asset: string; logoUrl?: string }) {
@@ -907,7 +907,7 @@ function CopiedTradesCard({ trades, loading }: { trades: CopyTrade[]; loading: b
  onClick={() => setOpen((v) => !v)}
  className="w-full flex items-center justify-between px-5 pt-5 pb-3 text-left"
  >
- <h2 className="text-[16px] font-bold text-[#001011] dark:text-white">Trade Copied</h2>
+ <h2 className="text-[16px] font-bold text-[#001011] dark:text-white">Trade Mirrored</h2>
  <svg
  width="16" height="16" viewBox="0 0 16 16" fill="none"
  stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"
@@ -948,7 +948,7 @@ function CopiedTradesCard({ trades, loading }: { trades: CopyTrade[]; loading: b
  </div>
  <p className="text-[15px] font-bold text-[#001011] dark:text-white mb-1.5">No trades yet</p>
  <p className="text-[13px] text-[#888888] dark:text-white/55 leading-relaxed mb-5 max-w-[220px]">
- Start copying expert traders to see your trades here
+ Start mirroring expert traders to see your trades here
  </p>
  <a
  href="/traders"
@@ -1241,15 +1241,15 @@ function BreakdownCard() {
  FOLLOWING CARD
 ════════════════════════════════════════════════════════════════ */
 
-function FollowingCard({ copying, loading }: { copying: CopyingTrader[]; loading: boolean }) {
+function FollowingCard({ mirroring, loading }: { mirroring: CopyingTrader[]; loading: boolean }) {
  const [open, setOpen] = useState(true);
  const [search, setSearch] = useState("");
 
- const filtered = copying.filter((t) =>
+ const filtered = mirroring.filter((t) =>
  t.trader_name.toLowerCase().includes(search.toLowerCase())
  );
 
- const isEmpty = copying.length === 0;
+ const isEmpty = mirroring.length === 0;
 
  const getInitials = (name: string) =>
  name.split(" ").slice(0, 2).map((p) => p[0]).join("").toUpperCase();
@@ -1315,7 +1315,7 @@ function FollowingCard({ copying, loading }: { copying: CopyingTrader[]; loading
  </div>
  <p className="text-[14px] font-bold text-[#001011] dark:text-white mb-1">No experts followed</p>
  <p className="text-[12px] text-[#888888] dark:text-white/55 leading-relaxed mb-5 max-w-[200px]">
- Start copying expert traders to see them here
+ Start mirroring expert traders to see them here
  </p>
  <a
  href="/traders"

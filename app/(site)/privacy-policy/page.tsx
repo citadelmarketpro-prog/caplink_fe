@@ -134,7 +134,7 @@ export default function PrivacyPolicyPage() {
                     },
                     {
                       label: "Verification Information",
-                      text: "Information necessary to verify your identity such as a passport or drivers license. Examples: background information about you we receive from public records or from other entities not affiliated with CaplinkMarkets. The USA Patriot Act requires us to collect information and take necessary actions to confirm your identity.",
+                      text: "Information necessary to verify your identity such as a passport or drivers license. Examples: background information about you we receive from public records or from other entities not affiliated with CapLink Markets. The USA Patriot Act requires us to collect information and take necessary actions to confirm your identity.",
                     },
                   ].map(({ label, text }) => (
                     <li key={label} className="text-[14px] leading-[1.8] text-[#444444] marker:text-[#444444]">
@@ -157,9 +157,9 @@ export default function PrivacyPolicyPage() {
         <FadeUp>
                 <SectionHeading>Security Technology</SectionHeading>
                 <BodyText>
-                  CaplinkMarkets uses Secure Socket Layer (SSL) encryption technology to protect the
+                  CapLink Markets uses Secure Socket Layer (SSL) encryption technology to protect the
                   information that you submit. This technology protects Users from having their
-                  information intercepted by anyone other than CaplinkMarkets during transmission. We
+                  information intercepted by anyone other than CapLink Markets during transmission. We
                   work hard to ensure that our websites are secure and that they meet industry
                   standards. We also use additional safeguards: firewalls, authentication systems
                   (e.g., passwords and personal identification numbers) and access control mechanisms
@@ -178,11 +178,11 @@ export default function PrivacyPolicyPage() {
                   As permitted by applicable law, we may share the personal information described
                   above with our affiliates for business purposes; such as servicing client accounts
                   and informing clients about new products and services. Our affiliates may include
-                  companies controlled or owned by CaplinkMarkets, as well as companies which have an
+                  companies controlled or owned by CapLink Markets, as well as companies which have an
                   ownership interest in our company. The information we share with affiliates may
                   include any of the information described above: your name, address, account
                   information, etc. Our affiliates maintain the privacy of your information to the
-                  same extent that CaplinkMarkets does in accordance with this Policy.
+                  same extent that CapLink Markets does in accordance with this Policy.
                 </BodyText>
               </FadeUp>
         </section>
@@ -194,17 +194,17 @@ export default function PrivacyPolicyPage() {
         <FadeUp>
                 <SectionHeading>Sharing Information With Third-Parties</SectionHeading>
                 <BodyText>
-                  With the exception of the purposes described in this Policy, CaplinkMarkets does not
+                  With the exception of the purposes described in this Policy, CapLink Markets does not
                   disclose personal information to third-parties. Third-party disclosures may include:
                   sharing such information with non-affiliated companies that perform support services
-                  for your account or facilitate your transactions with CaplinkMarkets; including those
-                  that provide professional, legal, or accounting advice to CaplinkMarkets.
-                  Non-affiliated companies that assist CaplinkMarkets in providing services to you are
+                  for your account or facilitate your transactions with CapLink Markets; including those
+                  that provide professional, legal, or accounting advice to CapLink Markets.
+                  Non-affiliated companies that assist CapLink Markets in providing services to you are
                   required to maintain the confidentiality of such information to the extent they
                   receive it and to use your personal information only in the course of providing
-                  such services and only for the purposes which CaplinkMarkets dictates. We may also
+                  such services and only for the purposes which CapLink Markets dictates. We may also
                   disclose your personal information to third-parties in order to fulfill your
-                  instructions or pursuant to your express consent. CaplinkMarkets will not sell your
+                  instructions or pursuant to your express consent. CapLink Markets will not sell your
                   personal information.
                 </BodyText>
               </FadeUp>
@@ -217,11 +217,11 @@ export default function PrivacyPolicyPage() {
         <FadeUp>
                 <SectionHeading>Regulatory Disclosure</SectionHeading>
                 <BodyText>
-                  Under limited circumstances, CaplinkMarkets may disclose your personal information to
+                  Under limited circumstances, CapLink Markets may disclose your personal information to
                   third-parties as permitted by, or to comply with, applicable laws and regulations.
-                  CaplinkMarkets may disclose personal information to cooperate with regulatory
+                  CapLink Markets may disclose personal information to cooperate with regulatory
                   authorities, law enforcement agencies, to comply with subpoenas or other official
-                  requests, and as necessary to protect CaplinkMarkets&apos;s rights or property. Except as
+                  requests, and as necessary to protect CapLink Markets&apos;s rights or property. Except as
                   described in this Privacy Policy, your personal information will not be used for
                   any other purpose unless we explicitly describe in what manner such information
                   will be used at the time you disclose it to us or we obtain your permission.

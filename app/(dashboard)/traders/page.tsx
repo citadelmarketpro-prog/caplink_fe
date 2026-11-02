@@ -49,24 +49,24 @@ const CATEGORY_TO_KEY: Record<string, string> = {
 
 const FAQS = [
  {
- question: "What is Copy Trading?",
+ question: "What is Mirror Trading?",
  answer:
- "Copy trading is an investment method that allows individuals to automatically copy the trades of professional or experienced traders. Instead of making trading decisions yourself, you select a trader to follow, and your account mirrors their positions in real time.",
+ "Mirror trading is an investment method that allows individuals to automatically mirror the trades of professional or experienced traders. Instead of making trading decisions yourself, you select a trader to follow, and your account mirrors their positions in real time.",
  },
  {
- question: "How do I copy an Expert?",
+ question: "How do I mirror an Expert?",
  answer:
- "Simply browse through our top traders, review their performance metrics, and click the ‘Copy Trader’ button on their profile. Your account will then mirror their trades automatically.",
+ "Simply browse through our top traders, review their performance metrics, and click the ‘Mirror Trader’ button on their profile. Your account will then mirror their trades automatically.",
  },
  {
- question: "How can I stop copying an Expert?",
+ question: "How can I stop mirroring an Expert?",
  answer:
- "You can stop copying an expert at any time from their profile page by clicking ‘Cancel’. Your request is reviewed and confirmed by an admin before the relationship ends.",
+ "You can stop mirroring an expert at any time from their profile page by clicking ‘Cancel’. Your request is reviewed and confirmed by an admin before the relationship ends.",
  },
  {
- question: "Why don't I receive any trades from copied experts?",
+ question: "Why don't I receive any trades from mirrored experts?",
  answer:
- "This could be because the expert hasn't made any trades recently, or your account balance is below the minimum capital required to copy them. Check the trader's profile for their minimum capital requirement.",
+ "This could be because the expert hasn't made any trades recently, or your account balance is below the minimum capital required to mirror them. Check the trader's profile for their minimum capital requirement.",
  },
 ];
 
@@ -199,7 +199,7 @@ export default function TradersPage() {
  <div className="max-w-[720px] mx-auto pb-16">
  <div className="text-center mb-8">
  <h2 className="text-[20px] font-bold text-[#001011] dark:text-white mb-1.5">Frequently Asked Questions</h2>
- <p className="text-[13px] text-[#888888] dark:text-white/55">Everything you need to know about copy trading</p>
+ <p className="text-[13px] text-[#888888] dark:text-white/55">Everything you need to know about mirror trading</p>
  </div>
  <div className="space-y-2.5">
  {FAQS.map((faq, i) => (
@@ -263,7 +263,7 @@ export default function TradersPage() {
  <>
  {/* Trending Investors */}
  {(sections?.trending?.length ?? 0) > 0 && (
- <CarouselSection title="Trending Investors" subtitle="Investors with the most popularity of copy among others">
+ <CarouselSection title="Trending Investors" subtitle="Investors with the most popularity of mirror among others">
  {(sections?.trending ?? []).map((t) => (
  <TrendingCard key={t.id} trader={t} />
  ))}
@@ -399,7 +399,7 @@ function HeroBanner() {
  Invest in expertise, share in success
  </h1>
  <p className="text-[12px] sm:text-[13px] text-white/85">
- Mirror the strategies of top investors with copy trading.
+ Mirror the strategies of top investors with mirror trading.
  </p>
  </div>
 
@@ -622,7 +622,7 @@ function RisingStarCard({ trader }: { trader: Trader }) {
 
  <div className="px-4 pb-4">
  <button className="w-full h-10 rounded-full border border-[#e5e5e5] dark:border-transparent dark:shadow-card-dark text-[13px] font-bold text-[#001011] dark:text-white hover:bg-[#f8f8f5] dark:hover:bg-white/5 transition-colors">
- Copy trader
+ Mirror trader
  </button>
  </div>
  </div>
@@ -646,8 +646,8 @@ function TopByCategory({ traders, active, onSelect }: {
  <section className="py-6">
  <div className="flex items-start justify-between gap-4 mb-1">
  <div>
- <h2 className="text-[20px] font-bold text-[#001011] dark:text-white leading-tight">Most copied by categories</h2>
- <p className="text-[12px] text-[#666666] dark:text-white/80 mt-0.5">Explore traders that are copied the most based on our categories</p>
+ <h2 className="text-[20px] font-bold text-[#001011] dark:text-white leading-tight">Most mirrored by categories</h2>
+ <p className="text-[12px] text-[#666666] dark:text-white/80 mt-0.5">Explore traders that are mirrored the most based on our categories</p>
  </div>
  {/* <a href="/traders" className="shrink-0 flex items-center gap-1 text-[13px] font-medium text-[#001011] dark:text-white hover:opacity-70 transition-opacity mt-1 whitespace-nowrap">
  View all

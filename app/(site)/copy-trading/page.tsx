@@ -1,26 +1,26 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Copy Trading",
+  title: "Mirror Trading",
   description:
-    "Discover how CaplinkMarkets copy trading works. Follow expert traders, mirror their positions in real time, and grow your portfolio without years of experience.",
+    "Discover how CapLink Markets mirror trading works. Follow expert traders, mirror their positions in real time, and grow your portfolio without years of experience.",
   openGraph: {
-    title: "Copy Trading | CaplinkMarkets",
+    title: "Mirror Trading | CapLink Markets",
     description:
       "Follow expert traders and mirror their positions in real time. Grow your portfolio without years of experience.",
-    url: "https://caplinkmarkets.com/copy-trading",
+    url: "https://caplinkmarkets.com/mirror-trading",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "CaplinkMarkets — Copy Trading Platform",
+        alt: "CapLink Markets — Mirror Trading Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Copy Trading | CaplinkMarkets",
+    title: "Mirror Trading | CapLink Markets",
     description:
       "Follow expert traders and mirror their positions in real time. Grow your portfolio without years of experience.",
     images: ["/opengraph-image.png"],

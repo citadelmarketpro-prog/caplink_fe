@@ -109,14 +109,14 @@ export default function UserGuidePage() {
               ═══════════════════════════════════ */}
               <section id="onboarding" className="flex flex-col gap-6 scroll-mt-[136px] lg:scroll-mt-28">
         <FadeUp>
-                <SectionHeading>CaplinkMarkets Leaders</SectionHeading>
+                <SectionHeading>CapLink Markets Leaders</SectionHeading>
 
                 {/* A. Login */}
                 <div className="flex flex-col gap-3">
                   <LimeSubHeading>A. Login</LimeSubHeading>
                   <BodyText>
-                    You can login to your account by entering your CaplinkMarkets Username or your
-                    CaplinkMarkets registered email address, together with your CaplinkMarkets password.
+                    You can login to your account by entering your CapLink Markets Username or your
+                    CapLink Markets registered email address, together with your CapLink Markets password.
                   </BodyText>
                 </div>
 
@@ -126,7 +126,7 @@ export default function UserGuidePage() {
                   <BodyText>
                     Upon your registration, a free Demo account will be automatically created for you,
                     with exactly the same functionality as a Live account. This means that you can try
-                    out CaplinkMarkets risk-free and experiment with different CopyTrading strategies before
+                    out CapLink Markets risk-free and experiment with different CopyTrading strategies before
                     investing any real funds!
                   </BodyText>
                   <BulletList
@@ -152,7 +152,7 @@ export default function UserGuidePage() {
                     </BodyText>
                     <BodyText>
                       In order to ensure smooth connectivity please note that your e-mail address at
-                      CaplinkMarkets should be the same as in your broker(s).
+                      CapLink Markets should be the same as in your broker(s).
                     </BodyText>
                   </div>
 
@@ -179,14 +179,14 @@ export default function UserGuidePage() {
                     <BodyText>
                       Please note that the required password is the MT4, MT5, ActTrader, XOH Master
                       password, and not the Read-Only (Investor) password. If you provide the Read-Only
-                      (Investor) password, although your CaplinkMarkets account will be connected to your
+                      (Investor) password, although your CapLink Markets account will be connected to your
                       Broker account, you will not be able to receive any signals as it will be set to
                       read-only mode.
                     </BodyText>
                     <BodyText>
                       If you do not have the Broker Account Username, Broker Account Password
                       available, then please contact your Broker as they can remind/reset them for you
-                      — unfortunately, CaplinkMarkets does not have access to this information and thus
+                      — unfortunately, CapLink Markets does not have access to this information and thus
                       cannot provide it.
                     </BodyText>
 
@@ -194,21 +194,21 @@ export default function UserGuidePage() {
                       Create a new broker account
                     </p>
                     <BodyText>
-                      You can also create a new Trading Account through CaplinkMarkets with our supported
+                      You can also create a new Trading Account through CapLink Markets with our supported
                       brokerage firms. In order to do so, please follow the on-screen instructions for
                       each broker account.
                     </BodyText>
                     <BodyText>
                       Keep in mind that for some brokers you will be directed to the broker&apos;s website
-                      to create your trading account. After that you will need to return to CaplinkMarkets
+                      to create your trading account. After that you will need to return to CapLink Markets
                       to eventually connect your new trading account. You will be provided with
                       instructions (on-screen or via email) that you need to follow for the specific
                       broker.
                     </BodyText>
                     <NoteBlock>
                       Please remember that if you ever change your Broker Password, connectivity with
-                      your CaplinkMarkets account will be lost, so you will need to repeat this process,
-                      and re-connect your Broker account to CaplinkMarkets using the updated Broker
+                      your CapLink Markets account will be lost, so you will need to repeat this process,
+                      and re-connect your Broker account to CapLink Markets using the updated Broker
                       Password.
                     </NoteBlock>
                   </div>
@@ -219,7 +219,7 @@ export default function UserGuidePage() {
                   <LimeSubHeading>C. Applicable Fees</LimeSubHeading>
                   <BodyText>
                     In order to be able to CopyTrade with a Live Trading Account you do not need to
-                    pay any subscription fee. The CaplinkMarkets Platform is available to all End-Users
+                    pay any subscription fee. The CapLink Markets Platform is available to all End-Users
                     holding a linked trading account with a Co-operating Broker.
                   </BodyText>
                 </div>
@@ -263,7 +263,7 @@ export default function UserGuidePage() {
                     <BodyText>
                       Clicking on any trade will show additional information for the specific
                       trade/order. Here you can also find the Trader Ticket and Broker Ticket, which
-                      are essential IDs if you wish to contact CaplinkMarkets over specific trades.
+                      are essential IDs if you wish to contact CapLink Markets over specific trades.
                     </BodyText>
 
                     {/* 1. Update */}
@@ -277,9 +277,9 @@ export default function UserGuidePage() {
                         the BUY or SELL rates that were previously set.
                       </BodyText>
                       <BodyText>
-                        When updating copied trades, you will overwrite any Stop Loss, Take Profit or
+                        When updating mirrored trades, you will overwrite any Stop Loss, Take Profit or
                         BUY/SELL rates previously set by the Leader or by yourself. Please note that
-                        after you have updated any of these rates, any new updates on copied trades
+                        after you have updated any of these rates, any new updates on mirrored trades
                         will be received normally at your account.
                       </BodyText>
                     </NumberedItem>
@@ -314,23 +314,23 @@ export default function UserGuidePage() {
                 <div className="flex flex-col gap-4">
                   <LimeSubHeading>C. My Leaders</LimeSubHeading>
                   <BodyText>
-                    This is where the Leaders that you already copy will appear. By clicking on any
+                    This is where the Leaders that you already mirror will appear. By clicking on any
                     Leader you will see your PnL, ROI and the investment you have made on a specific
-                    Leader, as well as all the trades that have been copied by the specific Leader.
+                    Leader, as well as all the trades that have been mirrored by the specific Leader.
                   </BodyText>
 
-                  {/* a. Copied Trades */}
+                  {/* a. Mirrored Trades */}
                   <div className="flex flex-col gap-2 mt-1">
-                    <SmallSubHeading>a. Copied Trades</SmallSubHeading>
+                    <SmallSubHeading>a. Mirrored Trades</SmallSubHeading>
                     <BodyText>
-                      Copied trades are organised in open, pending orders and closed trades exactly
+                      Mirrored trades are organised in open, pending orders and closed trades exactly
                       like your own (manual) trades. You can also update any open trade or pending
                       order, in the same way you can do it for your own trades.
                     </BodyText>
                     <BodyText>
-                      By updating copied trades, you will overwrite any Stop Loss, Take Profit or
+                      By updating mirrored trades, you will overwrite any Stop Loss, Take Profit or
                       BUY/SELL rates previously set by the Leader or by yourself. Please note that
-                      after you have updated any of these rates, any new updates on copied trades will
+                      after you have updated any of these rates, any new updates on mirrored trades will
                       be received normally at your account.
                     </BodyText>
                   </div>
@@ -342,7 +342,7 @@ export default function UserGuidePage() {
                       You can update the CopyTrading settings of a specific Leader&apos;s strategy by
                       clicking/tapping on &quot;Update&quot; next to the Leader&apos;s name. On the web app this
                       option is under the context menu (3 dots). A new window will open where you can
-                      change the &quot;Investment amount&quot;, &quot;Copy ratio&quot;, &quot;Take Profit amount&quot;, as well as
+                      change the &quot;Investment amount&quot;, &quot;Mirror ratio&quot;, &quot;Take Profit amount&quot;, as well as
                       set or remove the &quot;Trailing Stop&quot; for the whole strategy.
                     </BodyText>
                     <div>
@@ -350,23 +350,23 @@ export default function UserGuidePage() {
                     </div>
                   </div>
 
-                  {/* c. Stop Copying */}
+                  {/* c. Stop Mirroring */}
                   <div className="flex flex-col gap-2 mt-1">
-                    <SmallSubHeading>c. Stop Copying Strategy</SmallSubHeading>
+                    <SmallSubHeading>c. Stop Mirroring Strategy</SmallSubHeading>
                     <BodyText>
-                      From the &quot;Update Strategy&quot; window you can also stop copying a Leader&apos;s
-                      strategy. Once you stop copying a Leader you will stop receiving new trades by
+                      From the &quot;Update Strategy&quot; window you can also stop mirroring a Leader&apos;s
+                      strategy. Once you stop mirroring a Leader you will stop receiving new trades by
                       this specific Leader.
                     </BodyText>
                     <BodyText>
-                      In case you have open trades at the time you stop copying a Leader you will be
+                      In case you have open trades at the time you stop mirroring a Leader you will be
                       asked if you want to keep or close all the open trades by this Leader&apos;s strategy
                       as well.
                     </BodyText>
                     <BodyText>
-                      If you choose to keep all open trades from a strategy you are stop copying, you
+                      If you choose to keep all open trades from a strategy you are stop mirroring, you
                       will still receive signals for these trades until you close them manually or get
-                      closed by the Leader. New trades will not get copied though.
+                      closed by the Leader. New trades will not get mirrored though.
                     </BodyText>
                   </div>
                 </div>
@@ -382,20 +382,20 @@ export default function UserGuidePage() {
 
                 <BodyText>
                   If you click on the &quot;See all Leaders&quot; button, you will be directed to the Leaders&apos;
-                  page to check the Leaders and select which you wish to copy.
+                  page to check the Leaders and select which you wish to mirror.
                 </BodyText>
-                <BodyText>To copy a Leader, follow the steps below:</BodyText>
+                <BodyText>To mirror a Leader, follow the steps below:</BodyText>
 
                 <div className="flex flex-col gap-4">
                   {[
                     {
                       n: "1",
                       title: "Navigate to the Leaders\u2019 tab.",
-                      text: "Here you can explore all of the Leader\u2019s that are available for copytrading in CaplinkMarkets. You can click/tap on any of the Leaders to open their profiles, where you can view all of the Leader\u2019s trading statistics.",
+                      text: "Here you can explore all of the Leader\u2019s that are available for copytrading in CapLink Markets. You can click/tap on any of the Leaders to open their profiles, where you can view all of the Leader\u2019s trading statistics.",
                     },
                     {
                       n: "2",
-                      title: "Click/tap the \u201cCopy Strategy\u201d button",
+                      title: "Click/tap the \u201cMirror Strategy\u201d button",
                       text: "A pop-up will open.",
                     },
                     {
@@ -431,10 +431,10 @@ export default function UserGuidePage() {
                 {/* Advanced settings bullet list */}
                 <BulletList
                   items={[
-                    "Custom Copy Ratio: By setting a \u201cCustom Copy Ratio\u201d you will override our algorithm and the Leader\u2019s trades will be copied with the ratio you set.",
-                    "Take Profit: When you make this amount of profit by the copied trades from this Leader, you will automatically stop copying the Leader and all of the open copied trades will get closed.",
+                    "Custom Mirror Ratio: By setting a \u201cCustom Mirror Ratio\u201d you will override our algorithm and the Leader\u2019s trades will be mirrored with the ratio you set.",
+                    "Take Profit: When you make this amount of profit by the mirrored trades from this Leader, you will automatically stop mirroring the Leader and all of the open mirrored trades will get closed.",
                     "Trailing Stop Loss: If you set Capital Protection to $500, in case the Leader is losing $500 in your account, AutoGuard\u2122 will step in. However, this mode will move up exactly like a trailing stop for the whole strategy. If the Leader has closed trades that have a PnL of $2,000 in your account and his next trade has floating losses of -$500, then AutoGuard\u2122 will step in, and secure profits of $1,500!",
-                    "Copy Open Trades: Enabling this will copy all of the Leader\u2019s open trades at market price at the time you copy the Leader.",
+                    "Mirror Open Trades: Enabling this will mirror all of the Leader\u2019s open trades at market price at the time you mirror the Leader.",
                   ]}
                 />
 
@@ -509,8 +509,8 @@ export default function UserGuidePage() {
                 <SectionHeading>Community</SectionHeading>
 
                 <BodyText>
-                  Here you can learn what is happening in the CaplinkMarkets community and participate in
-                  discussions about investment topics. This is where CaplinkMarkets&apos;s users are sharing
+                  Here you can learn what is happening in the CapLink Markets community and participate in
+                  discussions about investment topics. This is where CapLink Markets&apos;s users are sharing
                   their thoughts about the markets.
                 </BodyText>
 
@@ -609,7 +609,7 @@ export default function UserGuidePage() {
 
                     <NumberedItem n="1" title="Change Password">
                       <BodyText>
-                        You can also change your password for logging into your CaplinkMarkets account —
+                        You can also change your password for logging into your CapLink Markets account —
                         in order to do that you will need your Current Password. If you have forgotten
                         your Current Password, you can always reset it by clicking on the Forgot
                         Password.
@@ -646,7 +646,7 @@ export default function UserGuidePage() {
                         support@caplinktrade.com
                       </LimeLink>{" "}
                       with the title &apos;Delete Account&apos;. Kindly note that due to regulatory obligations
-                      CaplinkMarkets is legally obliged to maintain data for Live accounts for a period of
+                      CapLink Markets is legally obliged to maintain data for Live accounts for a period of
                       time as per respective licences for EU and Global regions.
                     </BodyText>
                   </div>

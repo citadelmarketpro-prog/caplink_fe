@@ -3,26 +3,26 @@
 export const metadata: Metadata = {
   title: "Broker Partnership",
   description:
-    "Partner with CaplinkMarkets as a broker. Integrate our copy trading technology, grow your client base, and offer best-in-class social investing tools.",
+    "Partner with CapLink Markets as a broker. Integrate our mirror trading technology, grow your client base, and offer best-in-class social investing tools.",
   openGraph: {
-    title: "Broker Partnership | CaplinkMarkets",
+    title: "Broker Partnership | CapLink Markets",
     description:
-      "Partner with CaplinkMarkets as a broker. Integrate copy trading technology and offer best-in-class social investing tools.",
+      "Partner with CapLink Markets as a broker. Integrate mirror trading technology and offer best-in-class social investing tools.",
     url: "https://caplinkmarkets.com/broker",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "CaplinkMarkets — Copy Trading Platform",
+        alt: "CapLink Markets — Mirror Trading Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Broker Partnership | CaplinkMarkets",
+    title: "Broker Partnership | CapLink Markets",
     description:
-      "Partner with CaplinkMarkets as a broker. Integrate copy trading technology and offer best-in-class social investing tools.",
+      "Partner with CapLink Markets as a broker. Integrate mirror trading technology and offer best-in-class social investing tools.",
     images: ["/opengraph-image.png"],
   },
 };

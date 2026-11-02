@@ -47,7 +47,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
         <Link href="/" className="flex items-center shrink-0">
           <Image
             src="/logos/logo_wordmark.png"
-            alt="CaplinkMarkets"
+            alt="CapLink Markets"
             width={1400}
             height={328}
             priority

@@ -75,7 +75,7 @@ export default function Footer() {
             <Link href="/" className="inline-flex items-center">
               <Image
                 src="/logos/logo_one.png"
-                alt="CaplinkMarkets"
+                alt="CapLink Markets"
                 width={1600}
                 height={375}
                 className="h-16 sm:h-20 w-auto max-w-full object-contain"

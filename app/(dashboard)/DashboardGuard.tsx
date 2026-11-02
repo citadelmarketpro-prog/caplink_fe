@@ -29,14 +29,14 @@ export function SessionSpinner() {
  <div className="mb-8 text-center select-none flex flex-col items-center">
  <Image
  src="/logos/logo_two.png"
- alt="CaplinkMarkets"
+ alt="CapLink Markets"
  width={800}
  height={1035}
  priority
  className="w-[64px] h-auto object-contain mb-2"
  />
  <p className="text-[12px] text-[#6a8a72] uppercase tracking-[0.18em] mt-1">
- Copy Trading Platform
+ Mirror Trading Platform
  </p>
  </div>
 

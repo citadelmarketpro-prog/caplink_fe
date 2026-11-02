@@ -46,25 +46,25 @@ const siteUrl =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "CaplinkMarkets — Copy Trading Platform",
-    template: "%s | CaplinkMarkets",
+    default: "CapLink Markets — Mirror Trading Platform",
+    template: "%s | CapLink Markets",
   },
   description:
-    "Copy top traders automatically with CaplinkMarkets. Real-time trade copying, smart portfolio management, and AutoGuard risk protection for every investor.",
+    "Mirror top traders automatically with CapLink Markets. Real-time trade mirroring, smart portfolio management, and AutoGuard risk protection for every investor.",
   keywords: [
-    "copy trading",
+    "mirror trading",
     "social trading",
     "trade signals",
     "portfolio management",
-    "forex copy trading",
-    "stock copy trading",
+    "forex mirror trading",
+    "stock mirror trading",
     "auto trading",
     "investment platform",
-    "CaplinkMarkets",
+    "CapLink Markets",
   ],
-  authors: [{ name: "CaplinkMarkets", url: "https://caplinkmarkets.com" }],
-  creator: "CaplinkMarkets",
-  publisher: "CaplinkMarkets",
+  authors: [{ name: "CapLink Markets", url: "https://caplinkmarkets.com" }],
+  creator: "CapLink Markets",
+  publisher: "CapLink Markets",
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
@@ -80,26 +80,26 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://caplinkmarkets.com",
-    siteName: "CaplinkMarkets",
-    title: "CaplinkMarkets — Copy Trading Platform",
+    siteName: "CapLink Markets",
+    title: "CapLink Markets — Mirror Trading Platform",
     description:
-      "Copy top traders automatically with CaplinkMarkets. Real-time trade copying, smart portfolio management, and AutoGuard risk protection.",
+      "Mirror top traders automatically with CapLink Markets. Real-time trade mirroring, smart portfolio management, and AutoGuard risk protection.",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "CaplinkMarkets — Copy Trading Platform",
+        alt: "CapLink Markets — Mirror Trading Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "CaplinkMarkets — Copy Trading Platform",
+    title: "CapLink Markets — Mirror Trading Platform",
     description:
-      "Copy top traders automatically with CaplinkMarkets. Real-time trade copying, smart portfolio management, and AutoGuard risk protection.",
+      "Mirror top traders automatically with CapLink Markets. Real-time trade mirroring, smart portfolio management, and AutoGuard risk protection.",
     images: ["/opengraph-image.png"],
-    creator: "@CaplinkMarkets",
+    creator: "@CapLink Markets",
   },
   robots: {
     index: true,

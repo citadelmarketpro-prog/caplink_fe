@@ -3,26 +3,26 @@
 export const metadata: Metadata = {
   title: "Affiliate Programme",
   description:
-    "Earn passive income by referring traders to CaplinkMarkets. Join our affiliate programme and receive competitive commissions for every active user you bring.",
+    "Earn passive income by referring traders to CapLink Markets. Join our affiliate programme and receive competitive commissions for every active user you bring.",
   openGraph: {
-    title: "Affiliate Programme | CaplinkMarkets",
+    title: "Affiliate Programme | CapLink Markets",
     description:
-      "Earn passive income by referring traders to CaplinkMarkets. Competitive commissions for every active user you bring.",
+      "Earn passive income by referring traders to CapLink Markets. Competitive commissions for every active user you bring.",
     url: "https://caplinkmarkets.com/affiliate",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "CaplinkMarkets — Copy Trading Platform",
+        alt: "CapLink Markets — Mirror Trading Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Affiliate Programme | CaplinkMarkets",
+    title: "Affiliate Programme | CapLink Markets",
     description:
-      "Earn passive income by referring traders to CaplinkMarkets. Competitive commissions for every active user you bring.",
+      "Earn passive income by referring traders to CapLink Markets. Competitive commissions for every active user you bring.",
     images: ["/opengraph-image.png"],
   },
 };

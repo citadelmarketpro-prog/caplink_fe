@@ -85,7 +85,7 @@ export default function Hero() {
               style={{ objectPosition: "62% 50%" }}
             />
           </div>
-          {/* Scrim — keeps every line of copy legible over the photo */}
+          {/* Scrim — keeps every line of mirror legible over the photo */}
           <div
             className="absolute inset-0 pointer-events-none"
             style={{
