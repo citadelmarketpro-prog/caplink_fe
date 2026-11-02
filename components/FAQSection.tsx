@@ -19,7 +19,7 @@ export default function FAQSection() {
     setOpenIndex(openIndex === i ? null : i);
 
   return (
-    <section id="faq" className="w-full bg-white">
+    <section id="faq" className="w-full bg-[#f4f6f5]">
       <div className="max-w-[1440px] mx-auto">
 
         {/* ── Centered header ── */}

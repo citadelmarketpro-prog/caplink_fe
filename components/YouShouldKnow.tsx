@@ -7,7 +7,7 @@ import { FadeUp, SlideIn } from "@/components/ScrollReveal";
 export default function YouShouldKnow() {
   const t = useTranslations("youShouldKnow");
   return (
-    <section className="w-full bg-white">
+    <section className="w-full bg-[#f8f7f3]">
       <div className="max-w-[1440px] mx-auto">
 
         {/* ── Full-width heading — centered, same size as How it works ── */}

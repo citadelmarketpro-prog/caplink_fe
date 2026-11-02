@@ -23,7 +23,7 @@ export default function TrustSection() {
   ];
 
   return (
-    <section className="w-full bg-[#eaf5f0]">
+    <section className="w-full bg-[#f6f4f8]">
       <div className="max-w-[1440px] mx-auto">
 
         {/* ── Centered heading ── */}
