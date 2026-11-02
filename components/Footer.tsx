@@ -58,7 +58,7 @@ export default function Footer() {
     {
       label: t("groupContact"),
       links: [
-        { label: "support@caplinktrade.com", href: "mailto:support@caplinktrade.com" },
+        { label: "support@caplinkmarkets.com", href: "mailto:support@caplinkmarkets.com" },
       ],
     },
   ];
@@ -191,9 +191,7 @@ export default function Footer() {
             <p className="text-[12px] text-[#888888]">
               {t("copyright")}
             </p>
-            <p className="text-[12px] text-[#888888]">
-              {t("secNumber")}
-            </p>
+            
           </div>
           <LangSwitcher openUp />
         </div>
