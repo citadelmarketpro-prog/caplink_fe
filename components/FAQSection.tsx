@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 import { m, AnimatePresence } from "framer-motion";
@@ -19,15 +19,15 @@ export default function FAQSection() {
     setOpenIndex(openIndex === i ? null : i);
 
   return (
-    <section id="faq" className="w-full bg-[#f4f6f5]">
+    <section id="faq" className="w-full bg-[#0a0a0a]">
       <div className="max-w-[1440px] mx-auto">
 
         {/* ── Centered header ── */}
-        <FadeUp className="text-center px-6 pt-14 pb-12 sm:pt-16 sm:pb-14 lg:pt-20 lg:pb-16 border-t border-[#e8ead8]">
-          <h2 className="text-[26px] sm:text-[38px] lg:text-[52px] font-extrabold text-[#0a0a0a] leading-tight mb-4">
+        <FadeUp className="text-center px-6 pt-14 pb-12 sm:pt-16 sm:pb-14 lg:pt-20 lg:pb-16 border-t border-white/10">
+          <h2 className="text-[26px] sm:text-[38px] lg:text-[52px] font-extrabold text-white leading-tight mb-4">
             {t("heading")}
           </h2>
-          <p className="text-[14px] sm:text-[15px] lg:text-[16px] text-[#888888] leading-[1.7] max-w-[480px] mx-auto">
+          <p className="text-[14px] sm:text-[15px] lg:text-[16px] text-white/60 leading-[1.7] max-w-[480px] mx-auto">
             {t("subtitle")}
           </p>
         </FadeUp>
@@ -44,35 +44,23 @@ export default function FAQSection() {
                 distance={20}
                 duration={0.35}
                 className={[
-                  "rounded-2xl overflow-hidden transition-colors duration-200",
+                  "rounded-2xl overflow-hidden transition-colors duration-200 border",
                   isOpen
-                    ? "bg-[#06811d]"
-                    : "bg-[#eaf5f0]",
+                    ? "bg-white/15 border-white/25"
+                    : "bg-white/5 border-white/10",
                 ].join(" ")}
               >
                 <button
                   onClick={() => toggle(i)}
                   className="w-full flex items-center justify-between gap-4 px-6 py-6 text-left"
                 >
-                  <span
-                    className={[
-                      "text-[15px] sm:text-[16px] font-semibold leading-snug",
-                      isOpen
-                        ? "text-white"
-                        : "text-[#06811d]",
-                    ].join(" ")}
-                  >
+                  <span className="text-[15px] sm:text-[16px] font-semibold leading-snug text-white">
                     {faq.question}
                   </span>
                   <m.span
                     animate={{ rotate: isOpen ? 45 : 0 }}
                     transition={{ type: "spring", stiffness: 420, damping: 22 }}
-                    className={[
-                      "shrink-0 text-[22px] font-light leading-none",
-                      isOpen
-                        ? "text-white"
-                        : "text-[#06811d]",
-                    ].join(" ")}
+                    className="shrink-0 text-[22px] font-light leading-none text-white"
                   >
                     +
                   </m.span>
@@ -88,7 +76,7 @@ export default function FAQSection() {
                       className="overflow-hidden"
                     >
                       <div className="px-6 pb-6">
-                        <p className="text-[14px] leading-[1.75] text-[#c8dcd2]">
+                        <p className="text-[14px] leading-[1.75] text-white/85">
                           {faq.answer}
                         </p>
                       </div>
