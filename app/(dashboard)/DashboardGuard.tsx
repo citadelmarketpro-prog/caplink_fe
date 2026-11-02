@@ -30,8 +30,8 @@ export function SessionSpinner() {
  <Image
  src="/logos/logo_two.png"
  alt="CapLink Markets"
- width={800}
- height={1035}
+ width={630}
+ height={352}
  priority
  className="w-[64px] h-auto object-contain mb-2"
  />

@@ -65,8 +65,8 @@ export default function Preloader() {
  <Image
  src="/logos/logo_two.png"
  alt="CapLink Markets"
- width={800}
- height={1035}
+ width={630}
+ height={352}
  priority
  className="w-[90px] sm:w-[110px] h-auto object-contain animate-preloader-pulse"
  />
