@@ -51,7 +51,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
             width={1400}
             height={328}
             priority
-            className={`h-6 lg:h-10 w-auto object-contain transition-all duration-300 ${
+            className={`h-6 lg:h-8 w-auto object-contain transition-all duration-300 ${
               isOverlay ? "brightness-0 invert lg:brightness-100 lg:invert-0" : ""
             }`}
           />
@@ -104,7 +104,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
           {/* Get Started */}
           <Link
             href="/sign-up"
-            className="btn-fx btn-fx-primary inline-flex items-center justify-center h-8 lg:h-11 px-3.5 lg:px-6 text-[12px] lg:text-[14px] font-bold"
+            className="btn-fx btn-fx-primary hidden sm:inline-flex items-center justify-center h-8 lg:h-11 px-3.5 lg:px-6 text-[12px] lg:text-[14px] font-bold"
           >
             {t("getStarted")}
           </Link>
