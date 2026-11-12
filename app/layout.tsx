@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default: "CapLink Markets — Mirror Trading Platform",
-    template: "%s | CapLink Markets",
+    template: "CapLink Markets | %s",
   },
   description:
     "Mirror top traders automatically with CapLink Markets. Real-time trade mirroring, smart portfolio management, and AutoGuard risk protection for every investor.",
