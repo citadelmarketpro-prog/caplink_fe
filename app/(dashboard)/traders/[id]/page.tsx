@@ -324,7 +324,7 @@ export default function TraderDetailPage() {
  }
  try {
  setCopyLoading(true);
- await api.post(`/api/traders/${id}/mirror/`);
+ await api.post(`/api/traders/${id}/copy/`);
  setIsCopying(true);
  } catch (err) {
  const msg = err instanceof Error ? err.message : "Failed to start mirroring. Please try again.";
@@ -337,7 +337,7 @@ export default function TraderDetailPage() {
  const handleCancel = useCallback(async () => {
  try {
  setCopyLoading(true);
- await api.delete(`/api/traders/${id}/mirror/`);
+ await api.delete(`/api/traders/${id}/copy/`);
  setIsCopying(false);
  setCancelRequested(true);
  toast.success("Cancel requested", {
