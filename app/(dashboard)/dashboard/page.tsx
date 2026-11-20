@@ -78,10 +78,10 @@ function getGreeting() {
 }
 
 export default function DashboardPage() {
- const { data: copyData, isLoading: loadingTrades } = useSWR<{ trades: CopyTrade[]; mirroring: CopyingTrader[] }>("/api/dashboard/mirror-trades/");
+ const { data: copyData, isLoading: loadingTrades } = useSWR<{ trades: CopyTrade[]; copying: CopyingTrader[] }>("/api/dashboard/copy-trades/");
  const { data: profile } = useSWR<UserProfile>("/api/auth/me/");
  const trades = copyData?.trades ?? [];
- const mirroring = copyData?.mirroring ?? [];
+ const mirroring = copyData?.copying ?? [];
 
  const firstName = profile?.first_name || "Trader";
  const kycStatus = profile?.kyc_status ?? null; // null = still loading

@@ -193,9 +193,9 @@ export default function TradeHistoryPage() {
  const [filters, setFilters] = useState<Filters>(DEFAULT_FILTERS);
  const [expanded, setExpanded] = useState<Set<number>>(new Set());
 
- const { data, isLoading: loading } = useSWR<{ trades: CopyTrade[]; mirroring: CopyingTrader[] }>("/api/dashboard/mirror-trades/");
+ const { data, isLoading: loading } = useSWR<{ trades: CopyTrade[]; copying: CopyingTrader[] }>("/api/dashboard/copy-trades/");
  const trades = data?.trades ?? [];
- const mirroring = data?.mirroring ?? [];
+ const mirroring = data?.copying ?? [];
 
  function toggleExpand(id: number) {
  setExpanded((prev) => {
