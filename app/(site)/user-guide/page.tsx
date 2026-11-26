@@ -621,8 +621,8 @@ export default function UserGuidePage() {
                     <SmallSubHeading>c. Delete Account</SmallSubHeading>
                     <BodyText>
                       In order to process the deletion of your account please send an email to{" "}
-                      <LimeLink href="mailto:support@caplinktrade.com">
-                        support@caplinktrade.com
+                      <LimeLink href="mailto:support@caplinkmarkets.com">
+                        support@caplinkmarkets.com
                       </LimeLink>{" "}
                       with the title &apos;Delete Account&apos;. Kindly note that due to regulatory obligations
                       CapLink Markets is legally obliged to maintain data for Live accounts for a period of

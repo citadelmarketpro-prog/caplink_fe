@@ -158,7 +158,7 @@ export default function EulaPage() {
                 <BodyText>
                   Any questions, complaints or claims with respect to the CapLink Markets Platform should
                   be directed to{" "}
-                  <LimeLink href="mailto:support@caplinktrade.com">support@caplinktrade.com</LimeLink>
+                  <LimeLink href="mailto:support@caplinkmarkets.com">support@caplinkmarkets.com</LimeLink>
                 </BodyText>
               </FadeUp>
         </section>

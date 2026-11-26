@@ -58,8 +58,8 @@ export default async function PressPage() {
               </h1>
               <p className="mt-3 text-[14px] lg:text-[15px] text-[#555555] max-w-xl">
                 {t("subtitle")}{" "}
-                <a href="mailto:press@caplinktrade.com" className="text-[#06811d] hover:underline underline-offset-2">
-                  press@caplinktrade.com
+                <a href="mailto:support@caplinkmarkets.com" className="text-[#06811d] hover:underline underline-offset-2">
+                  support@caplinkmarkets.com
                 </a>
               </p>
             </div>

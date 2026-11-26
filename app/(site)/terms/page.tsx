@@ -257,8 +257,8 @@ export default function TermsPage() {
                 </Body>
                 <Body>
                   For questions about these Terms, please contact us at{" "}
-                  <a href="mailto:support@caplinktrade.com" className="text-[#06811d] hover:underline underline-offset-2">
-                    support@caplinktrade.com
+                  <a href="mailto:support@caplinkmarkets.com" className="text-[#06811d] hover:underline underline-offset-2">
+                    support@caplinkmarkets.com
                   </a>.
                 </Body>
               </FadeUp>

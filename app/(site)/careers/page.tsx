@@ -168,8 +168,8 @@ export default async function CareersPage() {
 
           <p className="mt-8 text-[13px] text-[#666666]">
             {t("noFitPrefix")}{" "}
-            <a href="mailto:careers@caplinktrade.com" className="text-[#06811d] hover:underline underline-offset-2">
-              careers@caplinktrade.com
+            <a href="mailto:support@caplinkmarkets.com" className="text-[#06811d] hover:underline underline-offset-2">
+              support@caplinkmarkets.com
             </a>{" "}
             {t("noFitSuffix")}
           </p>
