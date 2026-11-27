@@ -311,7 +311,7 @@
     "statTradersCaption": "Kasvava kaupankäyntiyhteisö",
     "statMarketsLabel": "Saatavilla olevat markkinat",
     "statMarketsCaption": "Osakkeet, indeksit, hyödykkeet ja muut",
-    "asOf": "Tilanne {year} · Vahvistettua välittäjädataa"
+    "asOf": "Vuodesta {startYear} · Vahvistettua välittäjädataa"
   },
   "readyToInvest": {
     "heading": "Valmis sijoittamaan älykkäämmin?",

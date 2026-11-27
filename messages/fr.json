@@ -311,7 +311,7 @@
     "statTradersCaption": "Une communauté de trading en pleine croissance",
     "statMarketsLabel": "Marchés disponibles",
     "statMarketsCaption": "Actions, indices, matières premières et plus",
-    "asOf": "En date de {year} · Données de courtage vérifiées"
+    "asOf": "Depuis {startYear} · Données de courtage vérifiées"
   },
   "readyToInvest": {
     "heading": "Prêt à investir plus intelligemment ?",

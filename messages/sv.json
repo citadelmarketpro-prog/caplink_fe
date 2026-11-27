@@ -311,7 +311,7 @@
     "statTradersCaption": "En växande handelsgemenskap",
     "statMarketsLabel": "Tillgängliga marknader",
     "statMarketsCaption": "Aktier, index, råvaror och mer",
-    "asOf": "Per {year} · Verifierad mäklardata"
+    "asOf": "Sedan {startYear} · Verifierad mäklardata"
   },
   "readyToInvest": {
     "heading": "Redo att investera smartare?",

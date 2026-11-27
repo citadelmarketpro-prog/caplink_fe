@@ -311,7 +311,7 @@
     "statTradersCaption": "Uma comunidade de negociação em crescimento",
     "statMarketsLabel": "Mercados disponíveis",
     "statMarketsCaption": "Ações, índices, commodities e mais",
-    "asOf": "Em {year} · Dados de corretora verificados"
+    "asOf": "Desde {startYear} · Dados de corretora verificados"
   },
   "readyToInvest": {
     "heading": "Pronto para investir de forma mais inteligente?",

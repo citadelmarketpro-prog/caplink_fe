@@ -311,7 +311,7 @@
     "statTradersCaption": "Rastuća trgovačka zajednica",
     "statMarketsLabel": "Dostupna tržišta",
     "statMarketsCaption": "Dionice, indeksi, roba i više",
-    "asOf": "Stanje na {year} · Provjereni podaci brokera"
+    "asOf": "Od {startYear}. · Provjereni podaci brokera"
   },
   "readyToInvest": {
     "heading": "Spremni za pametnije ulaganje?",

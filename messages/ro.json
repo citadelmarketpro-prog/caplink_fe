@@ -311,7 +311,7 @@
     "statTradersCaption": "O comunitate de trading în creștere",
     "statMarketsLabel": "Piețe disponibile",
     "statMarketsCaption": "Acțiuni, indici, mărfuri și multe altele",
-    "asOf": "Din {year} · Date de broker verificate"
+    "asOf": "Din {startYear} · Date de broker verificate"
   },
   "readyToInvest": {
     "heading": "Gata să investești mai inteligent?",

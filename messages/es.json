@@ -311,7 +311,7 @@
     "statTradersCaption": "Una comunidad de trading en crecimiento",
     "statMarketsLabel": "Mercados disponibles",
     "statMarketsCaption": "Acciones, índices, materias primas y más",
-    "asOf": "A fecha de {year} · Datos de bróker verificados"
+    "asOf": "Desde {startYear} · Datos de bróker verificados"
   },
   "readyToInvest": {
     "heading": "¿Listo para invertir de forma más inteligente?",

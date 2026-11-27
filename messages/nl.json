@@ -311,7 +311,7 @@
     "statTradersCaption": "Een groeiende handelsgemeenschap",
     "statMarketsLabel": "Beschikbare markten",
     "statMarketsCaption": "Aandelen, indices, grondstoffen en meer",
-    "asOf": "Per {year} · Geverifieerde brokergegevens"
+    "asOf": "Sinds {startYear} · Geverifieerde brokergegevens"
   },
   "readyToInvest": {
     "heading": "Klaar om slimmer te beleggen?",

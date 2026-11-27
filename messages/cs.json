@@ -311,7 +311,7 @@
     "statTradersCaption": "Rostoucí obchodní komunita",
     "statMarketsLabel": "Dostupné trhy",
     "statMarketsCaption": "Akcie, indexy, komodity a další",
-    "asOf": "Stav k {year} · Ověřená data brokera"
+    "asOf": "Od roku {startYear} · Ověřená data brokera"
   },
   "readyToInvest": {
     "heading": "Připraveni investovat chytřeji?",

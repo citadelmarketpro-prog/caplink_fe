@@ -311,7 +311,7 @@
     "statTradersCaption": "Растяща търговска общност",
     "statMarketsLabel": "Налични пазари",
     "statMarketsCaption": "Акции, индекси, стоки и още",
-    "asOf": "Към {year} г. · Проверени брокерски данни"
+    "asOf": "От {startYear} г. · Проверени брокерски данни"
   },
   "readyToInvest": {
     "heading": "Готови ли сте да инвестирате по-умно?",

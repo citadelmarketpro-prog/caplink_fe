@@ -311,7 +311,7 @@
     "statTradersCaption": "Eine wachsende Handelsgemeinschaft",
     "statMarketsLabel": "Verfügbare Märkte",
     "statMarketsCaption": "Aktien, Indizes, Rohstoffe und mehr",
-    "asOf": "Stand {year} · Verifizierte Broker-Daten"
+    "asOf": "Seit {startYear} · Verifizierte Broker-Daten"
   },
   "readyToInvest": {
     "heading": "Bereit, smarter zu investieren?",

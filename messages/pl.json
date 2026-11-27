@@ -311,7 +311,7 @@
     "statTradersCaption": "Rosnąca społeczność tradingowa",
     "statMarketsLabel": "Dostępne rynki",
     "statMarketsCaption": "Akcje, indeksy, surowce i więcej",
-    "asOf": "Stan na {year} · Zweryfikowane dane brokera"
+    "asOf": "Od {startYear} r. · Zweryfikowane dane brokera"
   },
   "readyToInvest": {
     "heading": "Gotowy na mądrzejsze inwestowanie?",

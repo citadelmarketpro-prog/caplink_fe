@@ -311,7 +311,7 @@
     "statTradersCaption": "A growing trading community",
     "statMarketsLabel": "Markets available",
     "statMarketsCaption": "Stocks, indices, commodities & more",
-    "asOf": "As of {year} · Verified broker data"
+    "asOf": "Since {startYear} · Verified broker data"
   },
   "readyToInvest": {
     "heading": "Ready to Invest Smarter?",

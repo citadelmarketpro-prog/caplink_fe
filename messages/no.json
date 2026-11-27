@@ -311,7 +311,7 @@
     "statTradersCaption": "Et voksende handelsfellesskap",
     "statMarketsLabel": "Tilgjengelige markeder",
     "statMarketsCaption": "Aksjer, indekser, råvarer og mer",
-    "asOf": "Per {year} · Verifiserte meglerdata"
+    "asOf": "Siden {startYear} · Verifiserte meglerdata"
   },
   "readyToInvest": {
     "heading": "Klar for å investere smartere?",

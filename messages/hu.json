@@ -311,7 +311,7 @@
     "statTradersCaption": "Egyre növekvő kereskedési közösség",
     "statMarketsLabel": "Elérhető piacok",
     "statMarketsCaption": "Részvények, indexek, nyersanyagok és több",
-    "asOf": "{year}-tól · Ellenőrzött brókeradatok"
+    "asOf": "{startYear} óta · Ellenőrzött brókeradatok"
   },
   "readyToInvest": {
     "heading": "Készen áll okosabban befektetni?",

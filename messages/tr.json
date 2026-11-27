@@ -311,7 +311,7 @@
     "statTradersCaption": "Büyüyen bir alım satım topluluğu",
     "statMarketsLabel": "Mevcut piyasalar",
     "statMarketsCaption": "Hisse senetleri, endeksler, emtialar ve daha fazlası",
-    "asOf": "{year} itibarıyla · Doğrulanmış aracı kurum verileri"
+    "asOf": "{startYear}'ten beri · Doğrulanmış aracı kurum verileri"
   },
   "readyToInvest": {
     "heading": "Daha akıllı yatırım yapmaya hazır mısınız?",
