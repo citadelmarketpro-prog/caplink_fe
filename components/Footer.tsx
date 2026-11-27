@@ -155,57 +155,8 @@ export default function Footer() {
           <p className="text-[16px] font-bold text-[#333333] mb-4">
             {t("disclaimerTitle")}
           </p>
-          <p className="text-[14px] leading-[1.85] text-[#888888] mb-4">
-            {t("disclaimerP1")}
-          </p>
           <p className="text-[14px] leading-[1.85] text-[#888888]">
             {t("disclaimerP2")}
-          </p>
-        </div>
-
-        {/* ── Regulatory Information ── */}
-        <div className="px-6 lg:px-[72px] pt-8 pb-6 border-t border-[#e8ead8]">
-          <p className="text-[16px] font-bold text-[#333333] mb-4">
-            Regulatory Information
-          </p>
-          <p className="text-[14px] leading-[1.85] text-[#888888]">
-            CapLink Securities, Inc.
-            <br />
-            Also doing business as: CapLink Securities, Inc., Centara Capital Securities, Inc.
-            <br />
-            CRD#: 130702 / SEC#: 8-66379
-            <br />
-            Brokerage Firm regulated by FINRA (Los Angeles District Office)
-          </p>
-
-          <p className="text-[14px] leading-[1.85] text-[#888888] mt-4">
-            SEC registration approved 08/17/2004 &middot; Corporation &middot; Registered with FINRA (Self-Regulatory Organization) &middot; Registered in 25 U.S. States &amp; Territories
-            <br />
-            Disclosures: 1 total (1 regulatory event). For details, refer to FINRA BrokerCheck.
-          </p>
-
-          <p className="text-[14px] leading-[1.85] text-[#888888] mt-4">
-            <span className="font-semibold text-[#555555]">Main Office / Mailing Address</span>
-            <br />
-            1230 Rosecrans Avenue, Suite 300
-            <br />
-            Manhattan Beach, CA 90266, United States
-            <br />
-            Phone: 310-952-0987
-          </p>
-
-          <p className="text-[14px] leading-[1.85] text-[#888888] mt-4">
-            Established in California since 04/21/2003 &middot; Fiscal Year End: December
-          </p>
-
-          <p className="text-[14px] leading-[1.85] text-[#888888] mt-4">
-            <span className="font-semibold text-[#555555]">Direct Owners &amp; Executive Officers</span>
-            <br />
-            Scott Jiro Mibu (CRD#: 2272272) — President, CCO
-            <br />
-            Michael Henry Oshiro (CRD#: 2271174) — CEO
-            <br />
-            Thomas Joseph Barrett (CRD#: 2821759) — FINOP
           </p>
         </div>
 
